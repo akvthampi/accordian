@@ -150,77 +150,77 @@ const qaList = [
     {
         question: "11. How is income tax charged as per Section 4 of the Income Tax Act?",
         answer: `
-       Section 4 of the Income-tax Act, 1961 is the most important "charging section," serving as the backbone of the law. It lays down four main rules for how income tax is charged:  <br><br>
-       <UL>
-       <LI><strong>Applicable Rates:</strong> Tax is charged at the specific rates set for that year by the Annual Finance Act, the Income-tax Act itself, or both.</LI><br>
-       <LI><strong>Who Must Pay:</strong> The tax is charged on every "person" (which includes individuals, companies, firms, etc.)</LI><br>
-       <LI><strong>Taxable Period:</strong> Tax is always calculated on the total income earned during the "previous year" (the financial year the money is earned), and not the assessment year. However, there are a few special exceptions to this rule.</LI><br>
-       <LI><strong>Following the Law:</strong> The tax must be levied strictly by following all the various provisions and rules written in the Income-tax Act. In simple terms, this section is the starting point that gives the government the legal authority to ask a person to pay tax on the income they earned in the past year.</LI><br>
-       </UL>
+            Section 4 of the Income-tax Act, 1961 is the most important "charging section," serving as the backbone of the law. It lays down four main rules for how income tax is charged:  <br><br>
+            <UL>
+            <LI><strong>Applicable Rates:</strong> Tax is charged at the specific rates set for that year by the Annual Finance Act, the Income-tax Act itself, or both.</LI><br>
+            <LI><strong>Who Must Pay:</strong> The tax is charged on every "person" (which includes individuals, companies, firms, etc.)</LI><br>
+            <LI><strong>Taxable Period:</strong> Tax is always calculated on the total income earned during the "previous year" (the financial year the money is earned), and not the assessment year. However, there are a few special exceptions to this rule.</LI><br>
+            <LI><strong>Following the Law:</strong> The tax must be levied strictly by following all the various provisions and rules written in the Income-tax Act. In simple terms, this section is the starting point that gives the government the legal authority to ask a person to pay tax on the income they earned in the past year.</LI><br>
+            </UL>
         `
     },
     {
         question: "12. What is total income? What are the steps involved in computation of total income?",
         answer: `
-        <strong>Total Income</strong> is the final amount on which a person has to actually pay income tax. It is the amount arrived at after you calculate your Gross Total Income and subtract all the eligible deductions allowed by the tax laws. Total income must always be computed strictly according to the rules of the Income-tax Act, 1961.  <br><br>
-        <strong>Steps to Compute Total Income</strong><br>
-        To make it easy to understand, the Income-tax Act lays down a step-by-step procedure to calculate a person's total income. Here are the 8 crucial steps: <br><br>
-        <strong>Step 1: Determine Residential Status</strong> <br><br>
-        First, you must check the residential status of the taxpayer (whether they are a Resident, Non-Resident, etc.). This is important because it decides which of their incomes are taxable in India.  <br><br>
-        <strong>Step 2: Classify Income under Different Heads</strong> <br><br>
-        A person might earn money from various places. All these incomes must be sorted into five specific categories or "heads":  <br><br>
-        <ul>
-            <li>Salaries</li>   
-            <li>Income from House Property (like rent)</li>   
-            <li>Profits and Gains of Business or Profession</li>   
-            <li>Capital Gains (profit from selling assets like land or shares)</li>   
-            <li>Income from Other Sources (like bank interest or lottery winnings)</li>   
-        </ul><br>
-        <strong>Step 3: Compute Income under Each Head</strong> <br><br>
-        Calculate the net income for each of the five heads. You do this by removing any fully exempt income (like agricultural income) and subtracting the specific expenses or allowances permitted for that particular head of income.  <br><br>
-        <strong>Step 4: Apply Clubbing of Income</strong> <br><br>
-        Sometimes, taxpayers try to shift their income to family members (like a spouse or minor child) to pay less tax. The law prevents this through "clubbing" rules, which require that diverted income be added back into the main taxpayer's income. <br><br>
-        <strong>Step 5: Set-off and Carry Forward of Losses</strong> <br><br>
-        If you have a loss in one business but a profit in another, you are generally allowed to adjust (set-off) that loss against your profit. If the loss cannot be fully adjusted in the current year, it can often be carried forward to future years. <br><br>
-        <strong>Step 6: Compute Gross Total Income (GTI)</strong> <br><br>
-        Once you have adjusted for clubbing and set-off any losses, you add up the final figures from all five heads of income. The grand total is called your Gross Total Income (GTI). <br><br>
-        <strong>Step 7: Allow Deductions from Gross Total Income</strong> <br><br>
-        From your GTI, you are allowed to subtract certain deductions to encourage savings and social welfare (such as life insurance premiums, medical insurance, or donations). These are mainly known as Chapter VI-A deductions. <br><br>
-        <strong>Step 8: Arrive at the Total Income</strong> <br><br>
-        After subtracting the deductions from your Gross Total Income, the remaining figure is your Total Income. Finally, this amount is rounded off to the nearest multiple of ₹10. This is the exact figure on which your tax liability will be calculated! <br><br>
+            <strong>Total Income</strong> is the final amount on which a person has to actually pay income tax. It is the amount arrived at after you calculate your Gross Total Income and subtract all the eligible deductions allowed by the tax laws. Total income must always be computed strictly according to the rules of the Income-tax Act, 1961.  <br><br>
+            <strong>Steps to Compute Total Income</strong><br>
+            To make it easy to understand, the Income-tax Act lays down a step-by-step procedure to calculate a person's total income. Here are the 8 crucial steps: <br><br>
+            <strong>Step 1: Determine Residential Status</strong> <br><br>
+            First, you must check the residential status of the taxpayer (whether they are a Resident, Non-Resident, etc.). This is important because it decides which of their incomes are taxable in India.  <br><br>
+            <strong>Step 2: Classify Income under Different Heads</strong> <br><br>
+            A person might earn money from various places. All these incomes must be sorted into five specific categories or "heads":  <br><br>
+            <ul>
+                <li>Salaries</li>   
+                <li>Income from House Property (like rent)</li>   
+                <li>Profits and Gains of Business or Profession</li>   
+                <li>Capital Gains (profit from selling assets like land or shares)</li>   
+                <li>Income from Other Sources (like bank interest or lottery winnings)</li>   
+            </ul><br>
+            <strong>Step 3: Compute Income under Each Head</strong> <br><br>
+            Calculate the net income for each of the five heads. You do this by removing any fully exempt income (like agricultural income) and subtracting the specific expenses or allowances permitted for that particular head of income.  <br><br>
+            <strong>Step 4: Apply Clubbing of Income</strong> <br><br>
+            Sometimes, taxpayers try to shift their income to family members (like a spouse or minor child) to pay less tax. The law prevents this through "clubbing" rules, which require that diverted income be added back into the main taxpayer's income. <br><br>
+            <strong>Step 5: Set-off and Carry Forward of Losses</strong> <br><br>
+            If you have a loss in one business but a profit in another, you are generally allowed to adjust (set-off) that loss against your profit. If the loss cannot be fully adjusted in the current year, it can often be carried forward to future years. <br><br>
+            <strong>Step 6: Compute Gross Total Income (GTI)</strong> <br><br>
+            Once you have adjusted for clubbing and set-off any losses, you add up the final figures from all five heads of income. The grand total is called your Gross Total Income (GTI). <br><br>
+            <strong>Step 7: Allow Deductions from Gross Total Income</strong> <br><br>
+            From your GTI, you are allowed to subtract certain deductions to encourage savings and social welfare (such as life insurance premiums, medical insurance, or donations). These are mainly known as Chapter VI-A deductions. <br><br>
+            <strong>Step 8: Arrive at the Total Income</strong> <br><br>
+            After subtracting the deductions from your Gross Total Income, the remaining figure is your Total Income. Finally, this amount is rounded off to the nearest multiple of ₹10. This is the exact figure on which your tax liability will be calculated! <br><br>
         `
     },
     {
         question: "13. What is the logic behind clubbing of income of spouse, minor child, etc?",
         answer: `
-        <strong>Clubbing of Income</strong> is essentially a rule created to prevent tax avoidance.
-        <br><br>
-        <strong>The Problem:</strong> In India, income tax for individuals is charged using a "progressive slab system." This means that as a person's income goes up, the rate of tax they have to pay also goes up. To avoid paying these higher taxes, some people in high-income brackets try a trick: they shift or "divert" parts of their income to their spouse, minor child, or other family members who are in a lower tax bracket.
-        <br><br>
-        <strong>The Solution:</strong> To stop taxpayers from using this loophole to artificially reduce their tax burden, the Income-tax Act includes "clubbing provisions." Under these rules, the income that was diverted to family members (like a spouse or minor child) is taken and added back—or "clubbed"—into the total income of the original person who diverted it.
-        <br><br>
-        In short, the tax department looks at who actually generated the income, not just whose bank account it was transferred to, ensuring the correct amount of tax is paid.
+            <strong>Clubbing of Income</strong> is essentially a rule created to prevent tax avoidance.
+            <br><br>
+            <strong>The Problem:</strong> In India, income tax for individuals is charged using a "progressive slab system." This means that as a person's income goes up, the rate of tax they have to pay also goes up. To avoid paying these higher taxes, some people in high-income brackets try a trick: they shift or "divert" parts of their income to their spouse, minor child, or other family members who are in a lower tax bracket.
+            <br><br>
+            <strong>The Solution:</strong> To stop taxpayers from using this loophole to artificially reduce their tax burden, the Income-tax Act includes "clubbing provisions." Under these rules, the income that was diverted to family members (like a spouse or minor child) is taken and added back—or "clubbed"—into the total income of the original person who diverted it.
+            <br><br>
+            In short, the tax department looks at who actually generated the income, not just whose bank account it was transferred to, ensuring the correct amount of tax is paid.
         `
     },
     {
         question: "14.  What is set-off or carry forward and set-off of losses?",
         answer: `
-        <p>The concepts of "set-off of losses" and "carry forward and set-off of losses" are procedural mechanisms within the Income-tax Act that ensure fairness and accuracy in determining a taxpayer's net taxable income.</p><br>
+            <p>The concepts of "set-off of losses" and "carry forward and set-off of losses" are procedural mechanisms within the Income-tax Act that ensure fairness and accuracy in determining a taxpayer's net taxable income.</p><br>
 
-        <h3>What is "Set-off" of Losses?</h3>
+            <h3>What is "Set-off" of Losses?</h3>
 
-        <p>"Set-off" simply means adjusting or deducting your losses against your profits in the same year to arrive at your true net income. The Income-tax Act allows this adjustment in two ways:</p><br>
+            <p>"Set-off" simply means adjusting or deducting your losses against your profits in the same year to arrive at your true net income. The Income-tax Act allows this adjustment in two ways:</p><br>
 
-        <ul>
-            <li><strong>Adjustment under the Same Head (Intra-head):</strong> A person may have different sources of income under the exact same head of income. They might make a profit from one source and suffer a loss from another. For example, if you have a profit from a textile business but a loss from a printing business, you can adjust the printing loss against the textile profit to find your total business income.</li><br>
-            <li><strong>Adjustment across Different Heads (Inter-head):</strong> Similarly, you can sometimes have a loss under one head of income (like business) and a profit under another head (like house property). The law allows you to adjust a loss from one head against the profit of another head in certain cases.</li><br>
-            <li><strong>Important Restrictions on Set-off:</strong> The law has strict rules to prevent misuse. For example, a business loss is never allowed to be set-off against your salary income. Also, if you choose to pay tax under the new default tax regime (Section 115BAC), there are even more restrictions, such as not being allowed to set off a house property loss against income under any other head.</li><br>
-        </ul>
+            <ul>
+                <li><strong>Adjustment under the Same Head (Intra-head):</strong> A person may have different sources of income under the exact same head of income. They might make a profit from one source and suffer a loss from another. For example, if you have a profit from a textile business but a loss from a printing business, you can adjust the printing loss against the textile profit to find your total business income.</li><br>
+                <li><strong>Adjustment across Different Heads (Inter-head):</strong> Similarly, you can sometimes have a loss under one head of income (like business) and a profit under another head (like house property). The law allows you to adjust a loss from one head against the profit of another head in certain cases.</li><br>
+                <li><strong>Important Restrictions on Set-off:</strong> The law has strict rules to prevent misuse. For example, a business loss is never allowed to be set-off against your salary income. Also, if you choose to pay tax under the new default tax regime (Section 115BAC), there are even more restrictions, such as not being allowed to set off a house property loss against income under any other head.</li><br>
+            </ul>
         
 
-        <h3>What is "Carry Forward and Set-off" of Losses?</h3>
+            <h3>What is "Carry Forward and Set-off" of Losses?</h3>
 
-        <p>Sometimes, your losses in a year might be so big that your total profits are not enough to fully absorb or "set-off" the entire loss.</p><br>
+            <p>Sometimes, your losses in a year might be so big that your total profits are not enough to fully absorb or "set-off" the entire loss.</p><br>
 
         <ul>
             <li><strong>Carry Forward:</strong> The law allows you to carry the remaining, unadjusted loss forward into the subsequent (future) years.</li><br>
@@ -388,7 +388,96 @@ const qaList = [
                 <li><strong>Under the Optional Tax Regime (Normal Provisions):</strong> If the default tax regime is opted out of, the rebate is available only if the total income does not exceed ₹5,00,000. The maximum rebate allowed is the actual income-tax payable or ₹12,500, whichever is less. This rebate is not available against tax payable on long-term capital gains taxable under Section 112A.<br><br></li>
             </ul>
 `
+    },
+    {
+        question: " 23.  What is health and education cess on Income Tax? ",
+        answer: `
+            Health and Education Cess is a levy imposed on the income tax amount of taxpayers in India. It is calculated as a percentage of the income tax (including surcharge, if any) and is used to fund healthcare and education initiatives across the country.<br><br>
+
+            Key Features:<br><br>
+            <ul>
+                <li><strong>Rate:</strong> The cess is charged at 4% of the total income tax payable by the taxpayer.</li><br>
+                <li><strong>Surcharge Impact:</strong> This 4% cess is calculated on the net tax liability, which includes the applicable surcharge (if any).</li><br>
+            <li><strong>Purpose:</strong> The revenue generated from this cess is specifically allocated for the improvement of health and education services nationwide.</li><br>
+        </ul>
+`
+    },
+    {
+        question: "24. What is Alternate Minimum Tax (AMT)?",
+        answer: `
+            <strong>Alternate Minimum Tax (AMT)</strong>, governed by Section 115JC of the Income-tax Act, 1961, is a mechanism designed to preserve the tax base against the extensive use of certain profit-linked and investment-linked deductions. 
+
+            Under the normal provisions of the tax law, various deductions are provided to promote investment in different sectors, which can significantly reduce the overall tax liability of eligible taxpayers. To ensure that such entities still contribute a basic level of tax, AMT requires taxpayers to pay a minimum tax calculated on their total income without factoring in these profit-linked and investment-linked deductions.<br><br>
+
+            <strong>Key features and implications of AMT include:</strong><br><br>
+
+            <ul>
+                <li><strong>Tax Credit Mechanism:</strong> If the AMT paid is higher than the regular income-tax payable, a tax credit can be claimed for the excess tax paid over the regular tax amount.</li><br>
+                <li><strong>Applicability under the Optional Regime:</strong> AMT provisions are relevant for taxpayers who exercise the option to opt out of the default tax regime (Section 115BAC) and choose to pay taxes under the normal/optional provisions, which makes them eligible to claim the aforementioned deductions.</li><br>
+                <li><strong>Exemption under the Default Regime:</strong> Individuals, Hindu Undivided Families (HUFs), Association of Persons (AOPs), Body of Individuals (BOIs), and artificial juridical persons paying tax under the default tax regime (Section 115BAC) are not liable for AMT. Consequently, such persons are also not eligible to claim any AMT credit.</li><br>
+            </ul>
+            When determining the final tax liability for the year, individuals and other specified entities may calculate their taxes under both the default tax regime and the regular provisions (inclusive of AMT provisions, if applicable) to identify which regime is financially more beneficial before making a choice.
+`
+    },
+    {
+        question: "25. Why should a taxpayer examine whether to pay tax under the default tax regime or opt out of it?",
+        answer: `
+            A taxpayer should examine whether to pay tax under the default tax regime or opt out of it in order <strong>to determine which option is financially more beneficial</strong>. <br><br>
+
+            The <strong>default tax regime (under Section 115BAC)</strong> provides <strong>concessional rates of tax</strong>. However, to avail these lower rates, a taxpayer must <strong>forego several exemptions and deductions</strong>, such as Leave Travel Concession, House Rent Allowance, interest on self-occupied housing loans, and most deductions under Chapter VI-A (except specific ones like employer contributions to NPS under section 80CCD(2), Agnipath Scheme contributions under section 80CCH(2), and deduction for employment of new employees under section 80JJAA). Additionally, the default regime does not allow the set-off of certain losses, such as a loss from house property against income under any other head. Furthermore, taxpayers under the default regime are exempt from Alternate Minimum Tax (AMT) provisions.<br><br>
+
+            Conversely, the <strong>optional tax regime (normal provisions of the Act)</strong> applies the standard tax rates prescribed by the Annual Finance Act. Taxpayers opting for this regime <strong>remain eligible to claim the various profit-linked and investment-linked deductions</strong> and exemptions permitted under the Act. However, depending on the deductions claimed, this regime may attract AMT liability, which is a minimum tax calculated on total income without factoring in those specific deductions.<br><br>
+
+            To make an informed decision, a taxpayer should <strong>compute the total income and the final tax liability under both regimes</strong> (inclusive of AMT provisions, if applicable). <br><br>
+
+            The flexibility to switch between these regimes depends on the nature of the income:<br><br>
+            <ul>
+                <li><strong>Individuals, HUFs, AOPs, BOIs, and artificial juridical persons </strong> not having income from business or profession can exercise this choice every previous year, meaning the default regime can be chosen in one year and opted out of in another. <br><br></li>
+                <li>Those <strong>having income from business or profession</strong> can exercise the option to opt out, but once exercised, it applies to all subsequent assessment years and can only be withdrawn once (unless the business or professional income ceases).<br><br></li>
+            </ul>
+`
+    },
+    {
+        question: "26.  What is advance tax, and tax deducted/collected at source?",
+        answer: `
+            <strong>Advance Tax</strong><br><br>
+            Although an assessee's tax liability is finally determined at the end of the year, <strong>tax is required to be paid in advance based on estimated income</strong>. This system ensures a steady flow of tax revenue throughout the year. Generally, advance tax is payable in <strong>four installments</strong> on or before the following dates: 15th June, 15th September, 15th December, and 15th March. <br><br>
+
+            There is an exception for residents declaring profits under the <strong>presumptive taxation scheme</strong> (where business or professional income is calculated as a specific percentage of gross receipts or turnover). Such individuals can pay their advance tax in a <strong>single installment</strong> on or before 15th March instead of four installments.<br><br>
+
+            <strong>Tax Deducted/Collected at Source (TDS/TCS)</strong><br><br>
+            This is a mechanism where tax is collected at the very source of income. In specified cases, <strong>tax must be deducted at source by the payer</strong> before handing over the income to the payee, utilizing the rates prescribed in the Income-tax Act, 1961, or the Annual Finance Act,. <br><br>
+
+            Key operational rules for TDS include:<br><br>
+            <ul>
+                <li><strong>Timing of Deduction:</strong> The deduction must be made either at the time of accrual or at the time of payment, depending on the statutory requirements for that specific type of income.<br><br></li>
+                <li><strong>Specific Examples:</strong> For salary income, an employer is obligated to deduct tax only at the time of actually paying the salary. Conversely, for payments such as fees for professional services, fees for technical services, or interest payable to residents, the person responsible for the payment must deduct the tax either at the time the income is credited to the payee's account or at the time of actual payment, <strong>whichever is earlier</strong>.<br><br></li>
+                <li><strong>Remittance to Government:</strong> The tax deducted must be remitted to the credit of the Central Government through an authorized bank (like the RBI or SBI) within the statutory due dates.<br><br></li>
+            </ul>
+
+            <strong>Final Adjustment</strong><br><br>
+            At the end of the financial year, <strong>the advance tax paid and the tax deducted/collected at source are adjusted against the final calculated tax liability</strong>. After making these adjustments:<br><br>
+            <ul>
+                <li>If a balance is still owed, it must be paid as <strong>self-assessment tax</strong> on or before the due date for filing the return of income.<br><br></li>
+                <li>If the pre-paid taxes exceed the final liability, the excess amount will be issued as a <strong>tax refund</strong> after the return of income is filed.<br><br></li>
+            </ul>
+`
+    },
+    {
+        question: "What is tax payable/refundable?",
+        answer: `
+            <strong>Tax payable or refundable</strong> is the final net amount arrived at after adjusting the advance tax paid and the tax deducted or collected at source against the total calculated tax liability. <br><br>
+
+            Key aspects of this final adjustment include:<br><br>
+            <ul>
+                <li><strong>Rounding Off:</strong> The net tax payable or refundable amount must be rounded off to the nearest multiple of ₹10, in accordance with Section 288B.<br><br></li>
+                <li><strong>Tax Payable (Self-Assessment Tax):</strong> If a balance is still owed after all pre-paid tax adjustments, it is referred to as <strong>self-assessment tax</strong>. This amount must be paid on or before the due date for filing the return of income.<br><br></li>
+                <li><strong>Tax Refundable:</strong> If the pre-paid taxes exceed the actual tax liability, the excess amount becomes due as a <strong>tax refund</strong>. The assessee will receive this refund after the return of income is filed.<br><br></li>
+                <li><strong>Reporting:</strong> The exact amount of tax payable must be declared in the <strong>return of income</strong>, alongside the particulars of income earned under different heads, gross total income, and any deductions claimed.<br><br></li>
+            </ul>
+        `
     }
+
 
 
 ];
