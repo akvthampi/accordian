@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Study Portal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --bg-color: #f8fafc;
+            --text-dark: #0f172a;
+            --text-light: #475569;
+            --border: #e2e8f0;
+            --card-bg: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', system-ui, sans-serif;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-dark);
+            line-height: 1.5;
+        }
+
+        .app-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Master Header Section */
+        .master-header {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(135deg, #1e293b, #0f172a);
+            color: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+        }
+
+        .master-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        .master-header p {
+            color: #94a3b8;
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Grid Layout for Subjects */
+        .subject-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        /* Subject Cards */
+        .subject-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 30px 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .subject-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        .icon-wrapper {
+            width: 70px;
+            height: 70px;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            transition: transform 0.3s;
+        }
+
+        .subject-card:hover .icon-wrapper {
+            transform: scale(1.1);
+        }
+
+        .subject-title {
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: var(--text-dark);
+        }
+
+        .subject-desc {
+            font-size: 0.95rem;
+            color: var(--text-light);
+            margin-bottom: 20px;
+            flex-grow: 1;
+        }
+
+        .enter-btn {
+            font-weight: 600;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 20px;
+            border-radius: 8px;
+            background: #f8fafc;
+            width: 100%;
+            justify-content: center;
+            transition: background 0.2s;
+        }
+
+        /* Theme Colors for Specific Subjects */
+        .theme-blue .icon-wrapper {
+            background: #eff6ff;
+            color: #2563eb;
+        }
+
+        .theme-blue .enter-btn {
+            color: #2563eb;
+        }
+
+        .theme-blue:hover {
+            border-color: #2563eb;
+        }
+
+        .theme-blue:hover .enter-btn {
+            background: #eff6ff;
+        }
+
+        .theme-green .icon-wrapper {
+            background: #f0fdf4;
+            color: #16a34a;
+        }
+
+        .theme-green .enter-btn {
+            color: #16a34a;
+        }
+
+        .theme-green:hover {
+            border-color: #16a34a;
+        }
+
+        .theme-green:hover .enter-btn {
+            background: #f0fdf4;
+        }
+
+        .theme-purple .icon-wrapper {
+            background: #faf5ff;
+            color: #9333ea;
+        }
+
+        .theme-purple .enter-btn {
+            color: #9333ea;
+        }
+
+        .theme-purple:hover {
+            border-color: #9333ea;
+        }
+
+        .theme-purple:hover .enter-btn {
+            background: #faf5ff;
+        }
+
+        /* Mobile adjustments */
+        @media (max-width: 600px) {
+            .master-header {
+                padding: 40px 15px;
+            }
+
+            .master-header h1 {
+                font-size: 2rem;
+            }
+
+            .subject-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="app-container">
+        <header class="master-header">
+            <h1>Tax & Legal Study Hub</h1>
+            <p>Select a subject below to access comprehensive chapters, case laws, and detailed Q&A study materials.</p>
+        </header>
+
+        <main class="subject-grid">
+
+            <a href="IncomeTax/index.html" class="subject-card theme-blue">
+                <div class="icon-wrapper">
+                    <i class="fas fa-file-invoice-dollar"></i>
+                </div>
+                <h2 class="subject-title">Income Tax Law</h2>
+                <p class="subject-desc">Comprehensive guide to the Income Tax Act 1961, covering computation,
+                    exemptions, and the latest Finance Act amendments.</p>
+                <div class="enter-btn">
+                    Open Subject <i class="fas fa-arrow-right"></i>
+                </div>
+            </a>
+
+            <a href="gst_chapters.html" class="subject-card theme-green">
+                <div class="icon-wrapper">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <h2 class="subject-title">Goods & Services Tax</h2>
+                <p class="subject-desc">Explore the intricacies of CGST, SGST, IGST, supply rules, input tax credit, and
+                    GST compliance.</p>
+                <div class="enter-btn">
+                    Open Subject <i class="fas fa-arrow-right"></i>
+                </div>
+            </a>
+
+            <a href="corporate_law_chapters.html" class="subject-card theme-purple">
+                <div class="icon-wrapper">
+                    <i class="fas fa-building"></i>
+                </div>
+                <h2 class="subject-title">Corporate Law</h2>
+                <p class="subject-desc">Detailed breakdown of the Companies Act 2013, covering incorporation, directors,
+                    meetings, and winding up.</p>
+                <div class="enter-btn">
+                    Open Subject <i class="fas fa-arrow-right"></i>
+                </div>
+            </a>
+
+        </main>
+    </div>
+
+</body>
+
+</html>

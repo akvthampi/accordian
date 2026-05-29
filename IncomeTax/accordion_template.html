@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subject Viewer</title>
+    <link rel="stylesheet" href="accordion_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="app-container">
+        <header class="top-bar">
+            <a href="index.html" class="back-btn"><i class="fas fa-arrow-left"></i></a>
+            <div class="header-titles">
+                <h1 id="chapter-title">Loading...</h1>
+                <p id="chapter-info">Please wait...</p>
+            </div>
+        </header>
+
+        <div class="search-container">
+            <i class="fas fa-search search-icon"></i>
+            <input type="text" id="search-input" placeholder="Search keywords in this chapter...">
+        </div>
+
+        <main class="accordion-container" id="accordion-container">
+        </main>
+    </div>
+
+    <script>
+        // Get chapter from URL (e.g., accordion_template.html?chap=01)
+        const urlParams = new URLSearchParams(window.location.search);
+        const chapterID = urlParams.get('chap') || '01';
+
+        // Dynamically load the correct data file
+        const script = document.createElement('script');
+        script.src = 'data_chap_' + chapterID + '.js';
+
+        // Success: Load the logic
+        script.onload = function () {
+            const logicScript = document.createElement('script');
+            logicScript.src = 'accordion_logic.js';
+            document.body.appendChild(logicScript);
+        };
+
+        // Error: Handle missing files gracefully
+        script.onerror = function () {
+            document.getElementById('chapter-title').textContent = "Chapter Not Found";
+            document.getElementById('chapter-info').textContent = "The requested data file could not be loaded.";
+            document.getElementById('accordion-container').innerHTML = '<p style="padding: 20px;">Return to the home page and try another chapter.</p>';
+            document.querySelector('.search-container').style.display = 'none'; // Hide search if no data
+        };
+
+        document.head.appendChild(script);
+    </script>
+</body>
+
+</html>

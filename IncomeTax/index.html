@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subject Explorer - Detailed Study</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Modern, clean theme matching the accordion UI */
+        :root {
+            --primary: #2563eb;
+            --primary-hover: #1d4ed8;
+            --bg-color: #f8fafc;
+            --text-dark: #0f172a;
+            --text-light: #475569;
+            --border: #e2e8f0;
+            --card-bg: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', system-ui, sans-serif;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-dark);
+            line-height: 1.5;
+        }
+
+        .app-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header Section */
+        .app-header {
+            text-align: center;
+            padding: 40px 20px;
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            margin-bottom: 30px;
+            border: 1px solid var(--border);
+        }
+
+        .app-header h1 {
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+
+        .app-header p {
+            color: var(--text-light);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Grid Layout for Chapters */
+        .chapter-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        /* Chapter Cards */
+        .chapter-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 25px 20px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+            text-decoration: none;
+            /* Reset anchor styling */
+            color: inherit;
+            /* Reset anchor styling */
+        }
+
+        .chapter-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            border-color: var(--primary);
+        }
+
+        .icon-wrapper {
+            background: #eff6ff;
+            color: var(--primary);
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+
+        .chapter-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: var(--text-dark);
+        }
+
+        .chapter-desc {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            margin-bottom: 15px;
+            flex-grow: 1;
+        }
+
+        .read-btn {
+            color: var(--primary);
+            font-weight: 600;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .chapter-card:hover .read-btn i {
+            transform: translateX(4px);
+            transition: transform 0.2s;
+        }
+
+        /* Mobile adjustments */
+        @media (max-width: 600px) {
+            .app-header {
+                padding: 30px 15px;
+            }
+
+            .app-header h1 {
+                font-size: 1.6rem;
+            }
+
+            .chapter-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="app-container">
+        <header class="app-header">
+            <h1>Income Tax Law</h1>
+            <p>Income Tax Act 1961, Rules , Circulars and Case Laws </p>
+        </header>
+
+        <main class="chapter-grid" id="chapter-grid">
+        </main>
+    </div>
+
+    <script>
+        // 1. Define your chapters here
+        const chaptersData = [
+            {
+                id: '01',
+                name: 'Basic Concepts of Income Tax in India',
+                description: 'Components of Income Tax Law, Definitions, Computation of Total Income, Basis of Charge and Rates of Tax.',
+                icon: 'fas fa-landmark'
+            },
+            {
+                id: '02',
+                name: 'Residential Status and Scope of Total Income',
+                description: 'Determination of Residencial Status and scope of income based on residential status',
+                icon: 'fas fa-home'
+            },
+            {
+                id: '03',
+                name: 'Head of Income - Income from Salaries',
+                description: 'Defining, evaluating, and computing taxable income under both the default (Section 115BAC) and optional tax regimes.',
+                icon: 'fas fa-globe'
+            }
+        ];
+
+        // 2. Function to render the cards
+        function renderChapters() {
+            const grid = document.getElementById('chapter-grid');
+            let html = '';
+
+            chaptersData.forEach(chapter => {
+                html += `
+                    <a href="accordion_template.html?chap=${chapter.id}" class="chapter-card">
+                        <div class="icon-wrapper">
+                            <i class="${chapter.icon}"></i>
+                        </div>
+                        <h2 class="chapter-title">${chapter.name}</h2>
+                        <p class="chapter-desc">${chapter.description}</p>
+                        <div class="read-btn">
+                            Read Notes <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </a>
+                `;
+            });
+
+            grid.innerHTML = html;
+        }
+
+        // 3. Run on load
+        document.addEventListener('DOMContentLoaded', renderChapters);
+    </script>
+</body>
+
+</html>
