@@ -464,7 +464,7 @@ const qaList = [
 `
     },
     {
-        question: "What is tax payable/refundable?",
+        question: "27.  What is tax payable/refundable?",
         answer: `
             <strong>Tax payable or refundable</strong> is the final net amount arrived at after adjusting the advance tax paid and the tax deducted or collected at source against the total calculated tax liability. <br><br>
 
