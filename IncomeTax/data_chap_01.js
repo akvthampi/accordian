@@ -464,7 +464,7 @@ const qaList = [
 `
     },
     {
-        question: "27.  What is tax payable/refundable?",
+        question: "27. What is tax payable/refundable?",
         answer: `
             <strong>Tax payable or refundable</strong> is the final net amount arrived at after adjusting the advance tax paid and the tax deducted or collected at source against the total calculated tax liability. <br><br>
 
@@ -476,10 +476,291 @@ const qaList = [
                 <li><strong>Reporting:</strong> The exact amount of tax payable must be declared in the <strong>return of income</strong>, alongside the particulars of income earned under different heads, gross total income, and any deductions claimed.<br><br></li>
             </ul>
         `
+    },
+    {
+        question: "28. What is self-assessment tax?",
+        answer: `
+            <strong>Self-assessment tax</strong> is the final net amount arrived at after adjusting the advance tax paid and the tax deducted or collected at source against the total calculated tax liability. <br><br>
+
+            Key aspects of this final adjustment include:<br><br>
+            <ul>
+                <li><strong>Rounding Off:</strong> The net tax payable or refundable amount must be rounded off to the nearest multiple of ₹10, in accordance with Section 288B.<br><br></li>
+                <li><strong>Tax Payable (Self-Assessment Tax):</strong> If a balance is still owed after all pre-paid tax adjustments, it is referred to as <strong>self-assessment tax</strong>. This amount must be paid on or before the due date for filing the return of income.<br><br></li>
+                <li><strong>Tax Refundable:</strong> If the pre-paid taxes exceed the actual tax liability, the excess amount becomes due as a <strong>tax refund</strong>. The assessee will receive this refund after the return of income is filed.<br><br></li>
+                <li><strong>Reporting:</strong> The exact amount of tax payable must be declared in the <strong>return of income</strong>, alongside the particulars of income earned under different heads, gross total income, and any deductions claimed.<br><br></li>
+            </ul>
+        `
+    },
+    {
+        question: "29. What is a return of Income?",
+        answer: `
+            A <strong>return of income</strong> is the prescribed format in which an assessee furnishes information regarding the total income and tax payable. It essentially serves as a <strong>declaration of income</strong> by the assessee. The Central Board of Direct Taxes (CBDT) notifies the specific formats for different types of assessees.<br>
+            The return must contain various particulars, including:<br><br>
+            <ul>
+                <li><strong>Income earned under different heads</strong><br>
+                    <ul>
+                        <li>Salary</li>
+                        <li>Income from house property</li>
+                        <li>Profits and gains of business or profession</li>
+                        <li>Capital gains</li>
+                        <li>Income from other sources</li>
+                    </ul><br>
+                </li>
+                <li><strong>Gross total income:</strong><br>
+                    <ul>
+                        <li>Income earned under different heads</li>
+                        <li>Deductions claimed from the gross total income</li>
+                    </ul><br>
+                </li>
+                <li><strong>Total computed income:</strong><br>
+                    <ul>
+                        <li>Gross total income</li>
+                        <li>Deductions claimed from the gross total income</li>
+                    </ul><br>
+                </li>
+                <li><strong>The final tax payable by the assessee:</strong><br>
+                    <ul>
+                        <li>Total computed income</li>
+                        <li>Tax deducted or collected at source</li>
+                        <li>Advance tax paid</li>
+                    </ul><br>
+                </li>
+            </ul>
+
+            The Income-tax Act prescribes specific <strong>due dates</strong> for filing this return. It is <strong>mandatory for companies and firms</strong> to file the return of income before the due date, whereas other assessees are required to file subject to fulfilling certain specified conditions.<br><br>
+        `
+    },
+    {
+        question: "30. What are the important definitions in the Income Tax Act? What to do if a term is not defined in the Act?",
+        answer: `
+            If a term is not specifically defined within the Income-tax Act, 1961, <strong>reference can be made to the General Clauses Act or standard dictionaries</strong>. However, caution must be exercised because certain terms, such as "dividend" and "transfer," are assigned a much wider meaning under the Act than how they are commonly understood.<br><br>
+
+            Section 2 of the Income-tax Act, 1961 provides statutory definitions for various critical terms and expressions used throughout the legislation. The most important definitions include:<br><br>
+            <ul>
+
+                <li>   <strong>Assessee [Section 2(7)]:</strong> A person by whom any tax or any other sum of money is payable under the Act. This also includes any person against whom proceedings have been taken under the Act, as well as any person who is deemed to be an assessee or an assessee-in-default.<br><br></li>
+                <li>   <strong>Assessment [Section 2(8)]:</strong> The procedure by which the income of an assessee is determined, which includes both normal assessments and reassessments of an income previously assessed.<br><br></li>
+                <li>   <strong>Person [Section 2(31)]:</strong> Since the charge of income-tax is levied on every "person," the Act defines this term to encompass an individual, a Hindu Undivided Family (HUF), a company, a firm, an Association of Persons (AOP) or a Body of Individuals (BOI), a local authority, and every artificial juridical person.<br><br></li>
+                <li>   <strong>Income [Section 2(24)]:</strong> The Act provides an inclusive definition of income rather than an exhaustive one, leaving room for broader inclusions. It specifically lists items such as profits and gains, dividends, perquisites, capital gains, winnings from lotteries and games, and various government subsidies or grants.<br><br></li>
+                <li>   <strong>India [Section 2(25A)]:</strong> Defined to mean the territory of India as per Article 1 of the Constitution, along with its territorial waters, seabed, subsoil, continental shelf, exclusive economic zone, and the airspace above its territory and territorial waters.<br><br></li>
+                <li>   <strong>Agricultural Income [Section 2(1A)]:</strong> Encompasses rent or revenue derived from land situated in India that is used for agricultural purposes. It also includes income derived from such land through agriculture or through processes ordinarily employed by a cultivator to render the produce fit to be taken to the market.<br><br> </li>
+                <li>   <strong>Assessment Year [Section 2(9)]:</strong> A period of 12 months commencing on 1st April every year, representing the year in which the income earned during the previous year is taxed.<br><br></li>
+                <li>   <strong>Previous Year [Section 3]:</strong> Defined as the financial year immediately preceding the assessment year. This is the period during which the income is actually earned.<br><br></li>
+                <li>   <strong>Capital Asset [Section 2(14)]:</strong> Encompasses all types of property—movable or immovable, tangible or intangible—held by an assessee, whether connected with their business or profession or not. This includes securities, land, buildings, jewellery, patents, and even the goodwill of a business. However, it explicitly excludes certain items like agricultural land, specified stock-in-trade, personal effects (e.g., furniture, clothing, jewellery held for personal use), and gold deposit bonds issued by the government. It is important to note that even cash is considered a capital asset.<br><br></li>
+                <li>   <strong>Short-Term Capital Asset [Section 2(42A)]:</strong> A capital asset held for 24 months or less immediately before its transfer. However, for jewellery, the holding period is extended to 36 months.<br><br></li>
+                <li>   <strong>Long-Term Capital Asset [Section 2(29A)]:</strong> Any capital asset that is held for more than 24 months (or 36 months for jewellery).<br><br></li>
+                <li>   <strong>Revenue Receipt:</strong> Amounts received which are of a casual and non-recurring nature, such as gifts, inheritance, or damages for personal injury. These are generally not taxable unless specifically included in the Act.<br><br></li>
+                <li>   <strong>Capital Receipt:</strong> This refers to the return of capital itself or the release of a liability, rather than income. Examples include the repayment of a loan, the sale proceeds of a capital asset, or a gift. Capital receipts are generally not taxable, with the significant exception of capital gains arising from the transfer of certain assets.<br><br></li>
+                <li>   <strong>Capital Expenditure:</strong> Expenses incurred to acquire, expand, or improve capital assets, such as purchasing land, machinery, or buildings. Such expenses are not allowed as deductions in the year they are incurred but are instead added to the cost of the asset and recovered over time through depreciation.<br><br></li>
+                <li>   <strong>Revenue Expenditure:</strong> Expenses incurred in the ordinary course of business to generate revenue, such as rent, salaries, and raw materials. These are deductible in the year they are incurred, provided they are not capital in nature.<br><br></li>
+            </ul>
+        `
+    },
+    {
+        question: "31. How does the Income Tax Act treat an HUF? What are the important considerations regarding taxation of an HUF?",
+        answer: `
+        Under the Income tax Act, 1961, a <strong>Hindu Undivided Family (HUF) is treated as a separate tax entity for the purpose of assessment</strong>. It is explicitly included in the definition of a "person" under section 2(31), making it liable to pay income-tax. 
+        <br><br>
+        
+        Here are the important points regarding how the Act treats a HUF: <br>
+        <ul>
+            <li>
+                <strong>Definition and Formation</strong><br><br>
+                <ul>
+                    <li>The Income-tax Act does not define a "Hindu undivided family" itself; instead, it relies on the definition under Hindu Law, which describes it as a family consisting of all males lineally descended from a common ancestor, along with their wives and daughters.</li><br>
+                    <li>The relationship within a HUF <strong>arises from status, not from a contract</strong>.</li><br>
+                    <li>To form an assessable HUF, the Act does not require the family to have at least two male members or two coparceners.</li><br>
+                    <li>The Act's provisions for HUFs are also extended to <strong>Jain undivided families and Sikh undivided families</strong>, which are assessed in the exact same manner.</li><br>
+                </ul><br>
+            </li>
+            <li>
+                <strong>Coparceners and their Rights</strong><br><br>
+                <ul>
+                    <li>Specific members of the HUF who are within four degrees of the head of the family (the Karta) are known as <strong>coparceners</strong>.</li><br>
+                    <li>Coparceners acquire an interest in the joint family property by birth, and <strong>only coparceners have the legal right to demand a partition</strong> of the family's assets.</li><br>
+                    <li>Historically, only male descendants were coparceners. However, with effect from September 6, 2005, <strong>daughters were granted equal coparcenary status</strong> and rights as sons. Other female members, such as a wife or a daughter-in-law, do not hold coparcenary rights.</li><br>
+                </ul><br>
+            </li>
+            <li>
+                <strong>Influence of Hindu Law Schools</strong><br><br>
+                The legal rights within a HUF depend on the regional school of Hindu Law governing the family:<br><br>
+                <ul>
+                    <li><strong>Dayabaga School:</strong> Prevalent in West Bengal and Assam. Under this school, children do not acquire any right or share in the family property by birth. Rights are only acquired by succession upon the death of the father.</li><br>
+                    <li><strong>Mitakshara School:</strong> Prevalent in the rest of India. Under this school, every child acquires a right and share in the family property simply by birth, irrespective of whether the elders of the family are still living.</li><br>
+                </ul><br>
+            </li>
+            <li>
+                <strong>Taxation and Regimes</strong><br><br>
+                <ul>
+                    <li>A HUF is eligible to be taxed under the <strong>default tax regime (Section 115BAC)</strong>, which provides concessional tax rates but requires the HUF to forego certain standard exemptions and deductions. Under this default regime, a HUF is not liable for the Alternate Minimum Tax (AMT).</li><br>
+                    <li>A HUF also has the option to <strong>opt out of the default regime</strong> and pay tax under the normal provisions of the Act. If the HUF does not have income from a business or profession, it can evaluate its tax liability annually and choose whether or not to shift out of the default regime each previous year. Opting out allows the HUF to claim Chapter VI-A deductions and other benefits, though it may then become liable for AMT.</li><br>
+                </ul><br>
+            </li>
+        </ul>
+        `
+    },
+    {
+        question: "32. How does the Income Tax Act define and treat the term ‘Company’ differently from the definition provided under the Companies Act, 2013?",
+        answer: `
+        Under the <strong>Income-tax Act, 1961,</strong> the term "Company" is given a much wider connotation for assessment and tax purposes than its definition under the Companies Act, 2013. 
+
+As per Section 2(17) of the Income-tax Act, the expression "Company" includes:<br><br>
+<ul>
+    <li>Any <strong>Indian company</strong>.<br><br></li>
+    <li>Any <strong>foreign company</strong> (a body corporate incorporated by or under the laws of a country outside India).<br><br></li>
+    <li>Any institution, association, or body which was assessable or assessed as a company for any assessment year under the Indian Income-tax Act, 1922, or for any assessment year commencing on or before April 1, 1970, under the present Act.<br><br></li>
+    <li>Any institution, association, or body, whether incorporated or not, and whether Indian or non-Indian, that is <strong>declared by a general or special order of the Central Board of Direct Taxes (CBDT)</strong> to be a company for specified assessment years.<br><br></li>
+</ul>
+<strong>Diverse Treatment and Classification</strong><br><br>
+The Income-tax Act treats and classifies companies into distinct categories to determine their respective tax liabilities and obligations:<br><br>
+
+<strong>1. Domestic vs. Foreign Companies</strong><br><br>
+<ul>
+    <li>A <strong>domestic company</strong> is defined as an Indian company or any other company that has made necessary arrangements to declare and pay dividends (including on preference shares) within India out of the income chargeable to tax in India.<br><br></li>
+    <li>A <strong>foreign company</strong> is strictly defined as any company that is not a domestic company.<br><br></li>
+</ul>
+
+<strong>2. Expanded Scope of an Indian Company</strong><br><br>
+While an Indian company naturally includes those formed and registered under the Companies Act (with a registered or principal office located in India), the Income-tax Act expands this definition to also include:<br><br>
+<ul>
+    <li>Corporations established by a Central, State, or Provincial Act (such as Financial Corporations or State Road Transport Corporations).<br><br></li>
+    <li>Institutions, associations, or bodies declared by the CBDT to be a company.<br><br></li>
+    <li>Companies formed and registered under laws in force in specific regions like Jammu and Kashmir, or Union territories like Dadra and Nagar Haveli, Daman and Diu, Pondicherry, or Goa.<br><br></li>
+</ul>
+
+<strong>3. Widely Held vs. Closely Held Companies</strong><br><br>
+The Act differentiates companies based on the level of public involvement and interest:<br><br>
+<ul>
+    <li><strong>Widely Held Company (Substantial Public Interest):</strong> These include companies where the Government or RBI holds at least 40% of shares, companies registered to promote commerce/art/science/charity that do not distribute dividends (Section 8 companies), Mutual Benefit Finance Companies (Nidhi companies), companies owned by cooperative societies, and public limited companies whose equity shares are listed on a recognized Indian stock exchange.<br><br></li>
+    <li><strong>Closely Held Company:</strong> Any company that does not meet the specific statutory criteria for having substantial public interest is classified as a closely held company. For instance, all private limited companies fall into this category.<br><br></li>
+</ul>
+        `
+    },
+    {
+        question: "33. What is a 'firm' in the context of the Income Tax Act, 1961?",
+        answer: `
+        Under the Income-tax Act, 1961, the terms <strong>‘firm’, ‘partner’, and ‘partnership’</strong> have the same meanings as assigned to them in the Indian Partnership Act, 1932.<br><br>
+        A partnership is defined as the relationship between persons who have agreed to share the profits of a business carried on by all or any of them acting for all. The individuals who enter into this relationship with one another are individually referred to as ‘partners’ and collectively as a ‘firm’.<br><br>
+
+        The definition under the Act expands on this by specifically including <strong>Limited Liability Partnerships (LLPs) and their partners</strong>, as defined in the Limited Liability Partnership Act, 2008. An LLP is treated similarly because it contains elements of both a corporate structure and a partnership firm structure, with the liability of the partners being limited to their agreed contribution. <br><br>
+
+        Furthermore, for income-tax purposes, <strong>a minor who is admitted to the benefits of an existing partnership is also treated as a partner</strong>.<br><br>
+`
+    },
+    {
+        question: "34. What are the various types of persons defined under the Income Tax Act, 1961?",
+        answer: `
+        Under Section 2(31) of the Income-tax Act, 1961, the term <strong>‘Person’</strong> encompasses several categories, each constituting a separate unit of assessment or tax entity. The various types of persons defined under the Act include:<br><br>
+
+        <strong>1. Individual</strong><br><br>
+        This refers to a natural person or human being. It also includes a minor or a person of unsound mind, whose assessment may be made on the guardian or manager entitled to receive the income. In the case of a deceased person, the assessment is made on the legal representative.<br><br>
+
+        <strong>2. Hindu Undivided Family (HUF)</strong><br><br>
+        A HUF is treated as a separate entity for the purpose of assessment. It consists of all males lineally descended from a common ancestor, along with wives and daughters. Jain undivided families and Sikh undivided families are also assessed as HUFs under the Act.<br><br>
+
+        <strong>3. Company</strong><br><br>
+        The expression has a wide connotation under the Act and includes any Indian company, any foreign company, or any institution, association, or body declared by a general or special order of the Central Board of Direct Taxes (CBDT) to be a company.<br><br>
+
+        <strong>4. Firm</strong><br><br>
+        This includes traditional partnerships as defined under the Indian Partnership Act, 1932, and expressly covers Limited Liability Partnerships (LLPs).<br><br>
+
+        <strong>5. Association of Persons (AOP)</strong><br><br>
+        An AOP is formed when persons voluntarily combine for the promotion of a joint enterprise or common purpose with the objective of producing income. Entities like companies or firms can be members of an AOP.<br><br>
+
+        <strong>6. Body of Individuals (BOI)</strong><br><br>
+        This denotes the status of persons, such as co-executors or co-trustees, who merely receive income jointly and whose title and interest are indivisible. Unlike an AOP, a BOI can only consist of individuals as its members.<br><br>
+
+        <strong>7. Local Authority</strong><br><br>
+        This encompasses a municipal committee, district board, body of port commissioners, or any other authority legally entitled to or entrusted by the Government to control or manage a municipal or local fund.<br><br>
+
+        <strong>8. Artificial Juridical Person</strong><br><br>
+        This is a residual category covering entities that are not natural persons but hold a separate juristic personality in the eyes of the law. Examples include deities, universities, and the Bar Council.<br><br>
+`
+    },
+    {
+        question: "35. What is 'income' under Section 2(24) of the Income Tax Act, 1961?",
+        answer: `
+        Section 2(24) of the Income Tax Act, 1961 provides a statutory definition of the term "income". This definition begins with the words "Income includes," making it an <strong>inclusive rather than an exhaustive definition</strong>. This phrasing ensures that the scope of income is not strictly confined and leaves room for broader interpretations and inclusions.
+        <br><br>
+        <strong>Specific Inclusions under Section 2(24)</strong><br><br>
+        The Act specifically incorporates the following items of receipts within the ambit of income:<br><br>
+        <ul>
+        <li><strong>Profits, gains, and dividends</strong>.<br><br>
+        <li><strong>Salary and Employment Benefits:</strong> The value of any perquisite or profit in lieu of salary, special allowances granted to meet expenses wholly and exclusively for official duties, and personal allowances meant to compensate for increased cost of living or location-based expenses. It also includes any compensation received in connection with the termination or modification of employment terms.<br><br>
+        <li><strong>Business and Professional Income:</strong> Profits and gains from business or profession, deemed profits, and the value of any business-related benefits or perquisites. Additionally, it covers the fair market value of inventory on the date it is converted into or treated as a capital asset.<br><br>
+        <li><strong>Capital Gains:</strong> Profits arising from the transfer of capital assets.<br><br>
+        <li><strong>Casual Receipts:</strong> Winnings from lotteries, crossword puzzles, horse races, card games, game shows, and gambling or betting of any form.<br><br>
+        <li><strong>Gifts and Inadequate Consideration:</strong> Any sum of money or property received without consideration or for inadequate consideration.<br><br>
+        <li><strong>Employee Contributions:</strong> Sums received from employees as contributions to any provident fund, superannuation fund, or Employee State Insurance (ESI) fund.<br><br>
+        <li><strong>Insurance Receipts:</strong> Sums received under a Keyman insurance policy, including allocated bonuses. It also includes sums received under certain life insurance policies (other than ULIPs and Keyman policies) to the extent the amount exceeds the aggregate premiums paid, provided they are not otherwise exempt.<br><br>
+        <li><strong>Corporate Benefits:</strong> The value of benefits or perquisites obtained from a company by a director, a person with substantial interest, or their relatives, including obligations paid by the company on their behalf.<br><br>
+        <li><strong>Forfeited Advances:</strong> Any advance money retained or forfeited due to the failure of negotiations for the transfer of a capital asset.<br><br>
+        <li><strong>Subsidies and Grants:</strong> Assistance such as subsidies, grants, cash incentives, duty drawbacks, or reimbursements from the Central or State Government or any authority, unless these have been factored into determining the actual cost of a depreciable asset.<br><br>
+
+        <strong>Core Concepts of Income</strong><br><br>
+        To fully understand how income is treated under the Act, several underlying principles must be examined:<br><br>
+        <li><strong>Regular vis-a-vis Casual Receipts:</strong> While income generally implies a periodic monetary return from a definite source, the Act explicitly taxes casual and non-recurring receipts, such as lottery winnings.<br><br>
+        <li><strong>Revenue vis-a-vis Capital Receipts:</strong> Income typically refers to revenue receipts. Capital receipts are generally exempt unless specifically included in the statutory definition, such as capital gains or compensation for service termination. <br><br>
+        <li><strong>Net vis-a-vis Gross Receipts:</strong> Income refers to net receipts. It is determined after deducting permissible expenditures incurred to earn those gross receipts, as prescribed under the respective heads of income.<br><br>
+        <li><strong>Due basis vis-a-vis Receipt basis:</strong> Income is taxed on either a due basis or a receipt basis. For business or residual income, this largely depends on the method of accounting (cash or mercantile) regularly employed by the assessee.<br><br>
+        <li><strong>Application vis-a-vis Diversion of Income:</strong> If an obligation is discharged after the income reaches the assessee, it is considered an "application of income" and remains taxable. Conversely, if an overriding title diverts the income before it reaches the assessee, it is a "diversion of income" and is not taxable in the hands of the assessee.<br><br>
+        `
+    },
+    {
+        question: "36. What is the need and importance of identifying capital and revenue receipts?",
+        answer: `
+        The distinction between capital and revenue receipts is a fundamental concept in Indian income-tax law. <br><br>
+
+        <strong>The Concept</strong><br><br>
+        In general parlance, "income" refers to revenue receipts, while capital receipts are not considered income. However, the Income-tax Act, 1961, alters this general understanding by specifically including certain capital receipts within its statutory definition of income, thereby making them chargeable to tax. Examples of such taxable capital receipts include capital gains, compensation received for the modification or termination of services, and certain gifts or properties received without adequate consideration.<br><br>
+
+        <strong>Importance of Identification</strong><br><br>
+        The primary intent of the Act is to levy tax on income, not on capital. Consequently, distinguishing between capital and revenue receipts is crucial because <strong>capital receipts cannot be taxed unless they specifically fall within the scope of the statutory definition of "income"</strong>. Revenue receipts, conversely, are inherently taxable unless specifically exempted.
+
+        <strong>Criteria for Determining the Nature of a Receipt</strong><br><br>
+        There is no single, universal test to decisively classify a receipt; the determination must be based on the specific facts and circumstances of each case. However, several important criteria and tests are applied:<br><br>
+        <ul>    
+        <li><strong>Fixed Capital vs. Circulating Capital:</strong> A receipt referable to fixed capital (tangible or intangible assets kept in possession to generate profits) is a capital receipt and generally not taxable. A receipt referable to circulating capital (assets turned over in the process to yield income) is a revenue receipt and is taxable.<br><br></li>
+        <li><strong>Capital Asset vs. Trading Asset:</strong> Profits from the sale of a capital asset are taxable specifically under the head "Capital Gains," whereas profits from selling a trading asset in the regular course of business are revenue receipts taxable as business income.<br><br></li>
+        <li><strong>Course of Business:</strong> Profits arising from transactions that are part of, or incidental to, the regular business carried on by an assessee are treated as revenue receipts.<br><br></li>
+        <li><strong>Intention and Motive:</strong> The purpose behind acquiring an asset dictates the nature of the profit upon its sale. For example, if shares are bought as an investment or to gain a controlling interest, the profit on sale is of a capital nature. If acquired in the ordinary course of business as a dealer, the profit is a revenue receipt. Furthermore, even a single, isolated transaction can generate revenue receipts if the intention to resell indicates it is an adventure in the nature of trade.<br><br></li>
+        <li><strong>Nature of Compensation:</strong> Liquidated damages directly linked to the procurement of a capital asset are treated as capital receipts. Similarly, compensation received on the termination of an agency contract is a capital receipt if that agency was the only source of income. Conversely, it is considered a revenue receipt if multiple agencies are operated and only one is terminated, as taking up and exploiting agencies is part of the ordinary course of business.<br><br></li>
+        </ul>
+        `
+    },
+    {
+        question: "37. What is agricultural income as per Section 2(1A) of the Income Tax Act, 1961?",
+        answer: `
+        Under Section 2(1A) of the Income-tax Act, 1961, the definition of <strong>agricultural income</strong> is very wide, encompassing income earned by cultivators as well as landholders who rent out their lands. This income can be received either in cash or in kind. <br><br>
+
+        Agricultural income is specifically exempt from income-tax and can arise in the following three primary ways:<br><br>
+
+        <strong>1. Rent or Revenue Derived from Land</strong><br><br>
+        Income qualifies as agricultural if it is rent or revenue derived from land that satisfies three specific conditions:<br><br>
+        <ul>
+            <li>It must be derived from land.</li>
+            <li>The land must be <strong>situated in India</strong> (if situated in a foreign country, the entire income is taxable).</li>
+            <li>The land must be <strong>used for agricultural purposes</strong>.</li>
+            <li>Ownership of the land is not a prerequisite; for example, rent received by an original tenant from a sub-tenant can also qualify as agricultural income. The term "revenue" is broader than rent and includes other receipts, such as fees received for the renewal of a land lease.<br><br></li>
+        </ul>
+
+        <strong>2. Income Derived from Agricultural Land through Operations</strong><br><br>
+        This category includes income derived from the land by:<br><br>
+        <ul>
+            <li><strong>Agriculture:</strong> This involves basic operations (like tilling the land and sowing seeds) and subsequent operations (like weeding and digging) taken in conjunction with the basic operations.</li>
+            <li><strong>Ordinary Processes:</strong> The performance of any process ordinarily employed by a cultivator or receiver of rent in kind to render the produce fit to be taken to the market.</li>
+            <li><strong>Sale of Produce:</strong> The sale of agricultural produce by a cultivator or receiver of rent in kind, provided no process has been performed on the produce other than the ordinary processes needed to make it market-ready.<br><br></li>
+        </ul>
+
+        <strong>3. Income from a Farm Building</strong><br><br>
+        Income derived from a farm building is considered agricultural if the building is required for agricultural operations. To qualify, the building must be <strong>owned and occupied</strong> by the receiver of the rent/revenue or the cultivator, it must be situated on or in the immediate vicinity of the land, and it must be required as a dwelling house or a storehouse. Furthermore, the land must either be assessed to land revenue in India or be situated outside specified urban population and distance limits. If the building is let out for residential or non-agricultural business purposes, the income is not agricultural.<br><br>
+
+        <strong>Other Important Principles:</strong><br><br>
+        <ul>
+            <li><strong>Nurseries:</strong> According to Explanation 3 to Section 2(1A), <strong>income derived from saplings or seedlings grown in a nursery is deemed to be agricultural income</strong>, regardless of whether basic agricultural operations were carried out on the land.</li>
+            <li><strong>Indirect Connections:</strong> Non-agricultural income does not become agricultural simply because it has an indirect connection to land. Consequently, income from dairy farming, poultry farming, breeding livestock, fisheries, or the sale of forest trees of spontaneous growth (which grow unaided by human skill) is <strong>not</strong> agricultural income.</li>
+            <li><strong>Partial Integration (Apportionment):</strong> If an agricultural produce (such as tea, coffee, rubber, or sugarcane) is subjected to a manufacturing process before being sold, the resulting profit is apportioned. A specific percentage represents exempt agricultural income, while the remaining balance is taxable as business income.</li>
+        </ul>
+        `
     }
-
-
-
-];
-
-
+]
