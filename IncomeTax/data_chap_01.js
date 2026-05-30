@@ -224,7 +224,7 @@ const qaList = [
 
         <ul>
             <li><strong>Carry Forward:</strong> The law allows you to carry the remaining, unadjusted loss forward into the subsequent (future) years.</li><br>
-            <li><strong>Future Set-off:</strong> Once a loss is carried forward to a future year, the rules become stricter. Generally, a brought forward loss can only be adjusted against income from the *same head*. For example, a business loss carried forward from last year cannot be adjusted against house property income this year; it can only be adjusted against future business profits.</li><br>
+            <li><strong>Future Set-off:</strong> Once a loss is carried forward to a future year, the rules become stricter. Generally, a brought forward loss can only be adjusted against income from the <strong>same head</strong>. For example, a business loss carried forward from last year cannot be adjusted against house property income this year; it can only be adjusted against future business profits.</li><br>
         </ul>
         `
     },
@@ -762,5 +762,425 @@ The Act differentiates companies based on the level of public involvement and in
             <li><strong>Partial Integration (Apportionment):</strong> If an agricultural produce (such as tea, coffee, rubber, or sugarcane) is subjected to a manufacturing process before being sold, the resulting profit is apportioned. A specific percentage represents exempt agricultural income, while the remaining balance is taxable as business income.</li>
         </ul>
         `
+    },
+    {
+        question: "38.  What is Rule 7A of the Income Tax Rules, 1962?",
+        answer: `
+        <strong>Rule 7A of the Income-tax Rules, 1962</strong> deals with the taxation of income earned from growing rubber plants and manufacturing rubber products in India. <br><br>
+        When a seller grows rubber plants and processes them into specific marketable products (like centrifuged latex, cenex, or block rubbers), the total profit earned is a mix of both agricultural and business activities. Since agricultural income is generally exempt from tax while business income is taxable, Rule 7A provides a fixed formula to separate the two. <br><br>
+        According to this rule, the total profit from the sale is divided as follows:<br><br>
+        <ul>
+            <li><strong>65% is treated as agricultural income</strong>, which is completely exempt from income tax.</li>
+            <li><strong>35% is treated as business income</strong>, which is fully taxable under the head “Profits and gains from business or profession”.</li>
+        </ul>
+
+        <strong>Example:</strong><br><br>
+        Consider an individual who grows rubber plants in India, manufactures latex from them, and sells the final product in the market for ₹30 lakhs. 
+        <br><br>
+        <ul>
+            <li>The cost incurred for growing the rubber plants is ₹10 lakhs.</li>
+            <li>The cost of manufacturing the latex is ₹8 lakhs.</li>
+        </ul>
+        <br><br>
+        <strong>Step 1: Calculate the Total Profit</strong><br><br>
+        <ul>
+            <li>Total Profit = Sale Price - (Cost of growing + Cost of manufacturing)</li>
+            <li>Total Profit = ₹30 lakhs - (₹10 lakhs + ₹8 lakhs) = <strong>₹12 lakhs</strong></li>
+        </ul>
+        <br><br>
+        <strong>Step 2: Split the Profit using Rule 7A</strong><br><br>
+        <ul>
+            <li><strong>Agricultural Income (Tax-Exempt):</strong> 65% of the ₹12 lakhs profit = <strong>₹7.8 lakhs</strong></li>
+            <li><strong>Business Income (Taxable):</strong> 35% of the ₹12 lakhs profit = <strong>₹4.2 lakhs</strong></li>
+        </ul>
+        <br>
+        In this scenario, income tax will only be levied on the business income portion of ₹4.2 lakhs, while the remaining ₹7.8 lakhs is exempt from tax. <br>
+        <br>
+        Note that this rule applies only to income from growing and selling rubber. If rubber is used for producing other goods, different tax treatment may apply.
+        `
+    },
+    {
+        question: "39. What is Rule 7B of the Income Tax Rules, 1962?",
+        answer: `
+        <strong>Rule 7B</strong> of the Income-tax Rules, 1962 applies to the income derived from the sale of coffee grown and manufactured by the seller in India. Because this process involves both agricultural and business activities, Rule 7B provides specific formulas to apportion the profit between tax-exempt agricultural income and taxable business income.<br><br>
+
+        The apportionment depends on the extent of processing the coffee undergoes:<br><br>
+
+        <ul>
+            <li><strong>Coffee grown and cured:</strong> If the coffee is only grown and cured in India, <strong>75%</strong> of the profit is treated as agricultural income (completely exempt from tax) and <strong>25%</strong> is treated as business income (fully taxable under the head "Profits and gains from business or profession").</li>
+            <li><strong>Coffee grown, cured, roasted, and grounded:</strong> If the coffee is grown, cured, roasted, and grounded in India (with or without mixing chicory or other flavoring ingredients), <strong>60%</strong> of the profit is treated as agricultural income (exempt from tax) and <strong>40%</strong> is treated as business income (fully taxable).</li>
+        </ul>
+        <br>
+        <strong>Example:</strong><br><br>
+        Consider an assessee who grows and cures coffee in India. The final product is sold in the market for ₹40 lakhs. The total cost incurred for growing and curing the coffee is ₹20 lakhs.
+        <br><br>
+        <strong>Step 1: Calculate the Total Profit</strong><br><br>
+        <ul>
+            <li>Total Profit = Sale Price - Cost of growing and curing</li>
+            <li>Total Profit = ₹40 lakhs - ₹20 lakhs = <strong>₹20 lakhs</strong></li>
+        </ul>
+        <br>
+
+        <strong>Step 2: Split the Profit using Rule 7B (Grown and Cured scenario)</strong><br><br>
+        <ul>
+            <li><strong>Agricultural Income (Tax-Exempt):</strong> 75% of the ₹20 lakhs profit = <strong>₹15 lakhs</strong></li>
+            <li><strong>Business Income (Taxable):</strong> 25% of the ₹20 lakhs profit = <strong>₹5 lakhs</strong></li>
+        </ul>
+        <br>
+        In this scenario, income tax will only be levied on the business income portion of ₹5 lakhs, while ₹15 lakhs is exempt. <br>
+        <br>
+        If, instead, the coffee was also roasted and grounded by the assessee before being sold, the profit would be split using the 60:40 ratio. Out of the ₹20 lakhs profit, ₹12 lakhs (60%) would be exempt agricultural income, and ₹8 lakhs (40%) would be taxable business income.
+        `
+    },
+    {
+        question: "40. What is Rule 8 of the Income Tax Rules, 1962?",
+        answer: `
+        <strong>Rule 8 of the Income-tax Rules, 1962</strong> applies specifically to income derived from the sale of tea that is both grown and manufactured by the seller in India. <br><br>
+
+        When an assessee engages in both growing agricultural produce and subjecting it to a manufacturing process before sale, the final profit contains both agricultural and non-agricultural (business) components. To separate these components for tea, Rule 8 provides a fixed statutory apportionment formula:<br><br>
+        <ul>
+            <li><strong>60%</strong> of the total profit is treated as <strong>agricultural income</strong>, which is entirely exempt from income tax.</li>
+            <li><strong>40%</strong> of the total profit is treated as <strong>business income</strong>, which is fully taxable under the head "Profits and gains from business or profession".</li>
+        </ul>
+        <br>
+        <strong>Example:</strong><br><br>
+        Consider an entity that grows tea leaves and manufactures tea in its estates in India. During a financial year, the final manufactured tea is sold for ₹100 lakhs. The combined cost incurred for both growing the tea leaves and manufacturing the tea amounts to ₹60 lakhs.<br><br>
+
+        <strong>Step 1: Determine the Total Profit</strong><br><br>
+        <ul>
+            <li>Total Profit = Sale Price - Total Cost</li>
+            <li>Total Profit = ₹100 lakhs - ₹60 lakhs = <strong>₹40 lakhs</strong></li>
+        </ul>
+        <br>
+
+        <strong>Step 2: Apportion the Profit under Rule 8</strong><br><br>
+        <ul>
+            <li><strong>Agricultural Income (Tax-Exempt):</strong> 60% of the ₹40 lakhs profit = <strong>₹24 lakhs</strong></li>
+            <li><strong>Business Income (Taxable):</strong> 40% of the ₹40 lakhs profit = <strong>₹16 lakhs</strong></li>
+        </ul>
+        <br>
+
+        In this scenario, income tax is only levied on the business income portion of ₹16 lakhs, while the remaining ₹24 lakhs is completely exempt from tax.
+        `
+    },
+    {
+        question: "41. How is income from farm building treated for the purpose of Income Tax?",
+        answer: `
+        Income from a farm building is treated as <strong>exempt agricultural income</strong> only if it fulfills specific conditions regarding its use, occupancy, and location. <br><br>If these statutory conditions are met, the income is not subject to income tax. <br><br>
+
+        <strong>Conditions for Exemption as Agricultural Income:</strong><br><br>
+        <ul>
+            <li><strong>Ownership and Occupancy:</strong> The building must be <strong>owned and occupied</strong> by the receiver of the rent or revenue from the agricultural land, or it must be occupied by the cultivator or the receiver of rent in kind.</li>
+            <li><strong>Location:</strong> The building must be situated <strong>on or in the immediate vicinity</strong> of the agricultural land.</li>
+            <li><strong>Purpose:</strong> The occupier must require the building to be used as a <strong>dwelling house or as a storehouse</strong> strictly because of their connection with the land and the agricultural processes carried out on it.</li>
+            <li><strong>Land Assessment or Urban Limits:</strong> In addition to the above, the land itself must satisfy <strong>one of the following two conditions</strong>:<br><br>
+                <ul>
+                    <li>The land is assessed to land revenue in India or is subject to a local rate assessed and collected by Government officers.</li>
+                    <li>If the land is not assessed to land revenue or local rates, it must be situated <strong>outside specified urban limits</strong>. Specifically, it must not be located within the following aerial distances from the local limits of a municipality or cantonment board:<br><br>
+                        <ul>
+                            <li><strong>2 kilometers</strong>, if the population is more than 10,000.</li>
+                            <li><strong>6 kilometers</strong>, if the population is more than 1,00,000.</li>
+                            <li><strong>8 kilometers</strong>, if the population is more than 10,00,000.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <br>
+        <strong>When it is NOT treated as Agricultural Income:</strong><br><br>
+        If the farm building is used for <strong>any purpose other than agriculture</strong>, the income derived from it will not qualify for the agricultural exemption. For instance, if the building is let out for a residential purpose or used for a non-agricultural business or profession, the income generated will be fully taxable under the standard provisions of the Income-tax Act.
+        `
+    },
+    {
+        question: "42. What is the treatment of income arising out of transfer of agricultural land situated in urban area?",
+        answer: `
+        Income arising from the transfer of agricultural land situated in an urban area is <strong>not treated as exempt agricultural income</strong>. 
+        <br><br>
+        Instead, according to <strong>Explanation 1 to Section 2(1A) of the Income-tax Act, 1961</strong>, the surplus or profit generated from the sale of such urban agricultural land is classified as a capital gain and is fully taxable under <strong>Section 45</strong>. 
+        <br><br>
+        To illustrate this, suppose a person sells agricultural land located in an urban municipality like New Delhi for ₹10 lakhs, making a surplus of ₹8 lakhs over their original cost of acquisition. Because the land is in an urban area, this ₹8 lakhs surplus will not qualify for the standard agricultural income exemption under <strong>Section 10(1)</strong> and will instead be assessed and taxed as a capital gain. 
+        <br><br>
+        This treatment emphasizes how the specific location of the land dictates its taxability. While revenue derived from agricultural operations on the land might be exempt, the capital receipt from selling the land itself becomes taxable if the land falls within specified urban limits.
+        `
+    },
+    {
+        question: "43. What is 'Previous Year' and 'Assessment Year'?",
+        answer: `
+        <strong>Assessment Year (A.Y.)</strong><br><br>
+        Defined under <strong>Section 2(9) of the Income-tax Act, 1961</strong>, the assessment year is a <strong>period of 12 months commencing on 1st April every year</strong>. This is the year in which the income earned by a person in the preceding year is assessed and subjected to tax.<br><br>
+
+        <strong>Previous Year (P.Y.)</strong><br><br>
+        Defined under <strong>Section 3 of the Act</strong>, the previous year is the <strong>financial year immediately preceding the assessment year</strong>. The income is actually earned during this period and is taxed in the subsequent assessment year. <br><br>
+        There is an important exception regarding the duration of the previous year:<br><br>
+        <strong>Newly set up business or new source of income:</strong> If a business or profession is newly set up, or a new source of income comes into existence during the financial year, the previous year is not a full 12 months. Instead, it is the <strong>period beginning on the date of setting up of the business or the date the new income source comes into existence, and ending on 31st March of that financial year</strong>.<br><br>
+        <strong>Examples:</strong><br><br>
+        <strong>Existing Business:</strong> Suppose Mr. A has been running a business from 1993 onwards. For the assessment year 2026-27, his previous year will be the standard 12-month period from 1st April 2025 to 31st March 2026.<br><br>
+        <strong>New Profession:</strong> If a chartered accountant sets up his profession on 1st July 2025, his previous year for the assessment year 2026-27 will commence on 1st July 2025 and end on 31st March 2026.<br>
+        `
+    },
+    {
+        question: "44. Explain cases, with examples, where income of previous year will be assessed in previous year itself.",
+        answer: `
+        As a general rule, the income earned by an assessee during a previous year is charged to income-tax in the following assessment year. For instance, income earned in the previous year 2025-26 is normally assessed in the assessment year 2026-27. <br><br>
+
+        However, there are certain specific exceptions where income is assessed in the previous year itself (the same year it is earned). These exceptions are designed to protect the interests of the revenue. <br><br>
+
+        The cases where this exception applies, along with examples, are as follows:<br><br>
+
+        <strong>1. Shipping business of a non-resident [Section 172]</strong><br><br>
+        Explanation: When a ship belonging to or chartered by a non-resident carries passengers, livestock, mail, or goods shipped at an Indian port, the ship is only allowed to leave the port after tax has been paid or a satisfactory arrangement for payment has been made. Under this rule, 7.5% of the freight paid or payable to the owner/charterer is deemed to be their income and is charged to tax in the exact same year it is earned.<br><br>
+        Example: A non-resident company's ship loads cargo at the Mumbai port in October 2025. Before the ship is granted port clearance to depart, 7.5% of the freight charges collected for this trip will be deemed as income and taxed immediately in the year 2025.<br><br>
+
+        <strong>2. Persons leaving India [Section 174]</strong><br><br>
+        Explanation: If the Assessing Officer (AO) has reason to believe that an individual will leave India during the current assessment year, or shortly after it ends, and has no intention of returning, the total income of that individual from the start of the current year up to the probable date of their departure is chargeable to tax in that same year.<br><br>
+        Example: Suppose Mr. X is leaving India for the USA on June 10, 2025, and it appears to the AO that he has no intention to return. Before leaving India, Mr. X may be asked to pay income-tax on the income he earned during the preceding previous year (2024-25), as well as on the total income earned during the current period from April 1, 2025, to June 10, 2025.<br><br>
+
+        <strong>3. AOP / BOI / Artificial Juridical Person formed for a particular event or purpose [Section 174A]</strong><br><br>
+        Explanation: If an Association of Persons (AOP) or Body of Individuals (BOI) is formed for a specific event or purpose, and the AO apprehends that it is likely to be dissolved in the same year or the next year, the AO can assess its income up to the date of dissolution in the same year.<br><br>
+        Example: A BOI is formed in July 2025 specifically to organize a large festival taking place in September 2025. Since the BOI is likely to dissolve immediately after the festival concludes, the AO can assess and tax the BOI's income in that same year itself, rather than waiting for the standard assessment year.<br><br>
+
+        <strong>4. Persons likely to transfer property to avoid tax [Section 175]</strong><br><br>
+        Explanation: If it appears to the AO during the current assessment year that a person is likely to sell, charge, transfer, or dispose of their assets to avoid paying tax liabilities, the income of that person from the start of the previous year to the date the AO commences proceedings is taxed in that same year.<br><br>
+        Example: In December 2025, the AO discovers that Mr. Y is hurriedly attempting to sell all his real estate and liquidate his bank accounts to evade an impending tax liability. The AO can intervene and assess Mr. Y's income earned from April 1, 2025, to the date of intervention in December 2025, demanding tax immediately. <br><br>
+
+        <strong>5. Discontinued business [Section 176]</strong><br><br>
+        Explanation: When any business or profession is discontinued during a year, the income earned from the start of that previous year up to the date of discontinuance <strong>may</strong>, at the discretion of the AO, be charged to tax in the same year.<br><br>
+        Example: A partnership firm decides to permanently shut down its operations on August 31, 2025. The AO has the discretionary power to assess and tax the firm's income earned between April 1, 2025, and August 31, 2025, within the same year, instead of waiting for the 2026-27 assessment year. <br><br>
+
+        `
+    },
+    {
+        question: "45. What are the provisions in Income Tax Law to deal with undisclosed sources of income?",
+        answer: `
+        The <strong>Income-tax Act, 1961</strong> contains strict provisions to deal with undisclosed sources of income, aiming to prevent the laundering of unaccounted money. These undisclosed incomes are broadly classified under <strong>Sections 68 to 69D</strong> and are subject to severe penal taxation.<br><br>
+
+        <strong>Tax Treatment of Undisclosed Income (Section 115BBE)</strong><br><br>
+        Any income deemed as undisclosed under <strong>Sections 68, 69, 69A, 69B, 69C, or 69D</strong> is taxed at a flat rate of <strong>60%</strong>, plus a <strong>25% surcharge</strong> and a <strong>4% health and education cess</strong>, resulting in an effective tax rate of <strong>78%</strong>. Furthermore, the assessee is <strong>not allowed to claim any basic exemption limit, allowances, expenditure deductions, or set-off of any losses</strong> against this deemed income.<br><br>
+
+        The specific provisions and examples are as follows:<br><br>
+
+        <strong>1. Cash Credits [Section 68]</strong><br><br>
+        If any sum is found credited in the assessee's books, and the assessee either offers no explanation about its nature and source, or the Assessing Officer finds the explanation unsatisfactory, that sum is charged as the assessee's income.<br><br>
+        <strong>Example (Unexplained Loan):</strong> If an assessee's books show a loan received, the Assessing Officer will not accept the explanation unless the person who supposedly gave the loan also provides a satisfactory explanation about the source of those funds. <br><br>
+        <strong>Example (Unexplained Share Capital):</strong> For a closely held company receiving share application money or premium, the resident investor must also satisfactorily explain the source of the funds; otherwise, it is taxed in the hands of the company.<br><br>
+
+        <strong>2. Unexplained Investments [Section 69]</strong><br><br>
+        If an assessee makes investments that are not recorded in their books of account and fails to offer a satisfactory explanation regarding the nature and source of the investments, the value of those investments is taxed as deemed income.<br><br>
+        <strong>Example:</strong> If an individual purchases a piece of land for ₹50 lakhs in cash without recording the transaction or the source of funds in his books, the entire ₹50 lakhs will be treated as unexplained investment and taxed at 78%. 
+        <br><br>
+        <strong>3. Unexplained Money, Bullion, Jewellery, etc. [Section 69A]</strong><br><br>
+        If an assessee is found to be the owner of any money, bullion, jewellery, or other valuable articles not recorded in the books of account, and offers no satisfactory explanation about how they acquired them, the value is deemed as their income.<br><br>
+        <strong>Example:</strong> During a search, if an assessee is found in possession of ₹20 lakhs in cash and gold bars that are not reflected in their accounts, and they cannot explain the source, this wealth is deemed as their income. 
+        <br><br>
+        <strong>4. Investments Not Fully Disclosed in the Books [Section 69B]</strong><br><br>
+        When the Assessing Officer discovers that the actual amount spent on making an investment or acquiring valuable articles (like jewellery or bullion) exceeds the amount recorded in the assessee's books, the unexplained difference is deemed as income.<br><br>
+        <strong>Example:</strong> If an assessee is found owning 300 grams of gold with a market value of ₹25,000, but their books record that they only spent ₹15,000 to acquire it, the Assessing Officer can add the unexplained difference of ₹10,000 as the assessee's income.
+        <br><br>
+        <strong>5. Unexplained Expenditure [Section 69C]</strong><br><br>
+        If an assessee incurs any expenditure and cannot provide a satisfactory explanation about the source of the money used for that expenditure, it is treated as their income. Additionally, this unexplained expenditure cannot be claimed as a deduction under any head of income.<br><br>
+        <strong>Example:</strong> An assessee spends ₹1 crore on a lavish destination wedding for their child, but their declared income and accounts do not reflect the capacity for such an expense. Without a valid explanation of the funds' source, the ₹1 crore is treated as unexplained expenditure. <br><br>
+        <strong>6. Amount Borrowed or Repaid on Hundi [Section 69D]</strong><br><br>
+        If an assessee borrows any amount on a <strong>hundi</strong> (a traditional financial instrument), or repays any such amount (including interest), through any medium other than an account-payee cheque drawn on a bank, the amount is deemed as the income of the person borrowing or repaying it. <br><br>
+        <strong>Example:</strong> If a trader borrows ₹2 lakhs on a <strong>hundi</strong> in cash, the ₹2 lakhs is treated as his income for that previous year. However, the law provides that <strong>if the amount is taxed when it is borrowed, it will not be taxed again when it is repaid.</strong>
+        `
+    },
+    {
+        question: "46. Explain the default tax regime under Section 115BAC of the Income Tax Act, 1961.",
+        answer: `
+        <strong>Section 115BAC of the Income-tax Act, 1961</strong> provides the default tax regime, which offers <strong>concessional rates of tax to individuals, Hindu Undivided Families (HUFs), Association of Persons (AOPs), Body of Individuals (BOIs), and artificial juridical persons</strong>. Under this regime, the <strong>basic exemption limit is ₹4,00,000</strong>, meaning no tax is payable on total income up to this threshold.<br><br>
+
+        <strong>Tax Slab Rates</strong>
+        Unless an assessee actively exercises the option to shift out of this regime, their total income (excluding income chargeable at special rates like certain capital gains or lotteries) is taxed at the following concessional rates:<br><br>
+        <ol>
+            <li><strong>Up to ₹4,00,000:</strong> Nil</li>
+            <li><strong>From ₹4,00,001 to ₹8,00,000:</strong> 5%</li>
+            <li><strong>From ₹8,00,001 to ₹12,00,000:</strong> 10%</li>
+            <li><strong>From ₹12,00,001 to ₹16,00,000:</strong> 15%</li>
+            <li><strong>From ₹16,00,001 to ₹20,00,000:</strong> 20%</li>
+            <li><strong>From ₹20,00,001 to ₹24,00,000:</strong> 25%</li>
+            <li><strong>Above ₹24,00,000:</strong> 30%</li>
+        </ol><br><br>
+
+        <strong>Key Conditions and Foregone Deductions</strong><br><br>
+        To benefit from these lower tax rates, <strong>the assessee must forego a wide range of standard exemptions and deductions</strong>. Under the default regime, you <strong>cannot</strong> claim:<br><br>
+        <ol>
+            <li>Leave Travel Concession (LTC) and House Rent Allowance (HRA).</li>
+            <li>Standard deductions for entertainment allowance and professional tax.</li>
+            <li>Interest on a housing loan for a self-occupied property.</li>
+            <li>Deductions under Chapter VI-A (such as 80C, 80D, 80G, etc.), with the specific exception of employer contributions to NPS [80CCD(2)], Agnipath Scheme contributions [80CCH(2)], and deductions for employing new employees [80JJAA].</li>
+            <li>Set-off of losses from house property against any other head of income.</li>
+        </ol><br><br>
+
+        <strong>Rebate under Section 87A and AMT Exemption</strong><br><br>
+        A significant advantage of this default regime is the enhanced rebate. <strong>A resident individual whose total income does not exceed ₹12,00,000 is eligible for a tax rebate of up to ₹60,000</strong>, which effectively makes their tax liability nil. If the income marginally exceeds ₹12 lakhs, marginal relief on the rebate is also available. Furthermore, persons opting for this regime are <strong>completely exempt from the Alternate Minimum Tax (AMT)</strong> under Section 115JC.<br><br>
+
+        <strong>Rules for Opting Out</strong><br><br>
+        Assessees can choose to shift out of the default regime and pay tax under the older, optional tax regime:<br><br>
+        <strong>Without Business/Professional Income:</strong> Individuals can evaluate their tax liability annually and choose whether to opt out or stay in the default regime each year.<br><br>
+        <strong>With Business/Professional Income:</strong> These individuals can opt out, but once the option is exercised, it applies to all subsequent years. They are allowed to withdraw their opt-out choice and revert to the default regime only once.<br><br>
+
+        <strong>Illustrative Examples:</strong><br><br>
+        <strong>Example 1: Demonstrating the Section 87A Rebate</strong><br><br>
+        Suppose Ms. Y, a resident individual, has a total computed income of <strong>₹11,50,000</strong> for the Assessment Year 2026-27 under the default tax regime. <br><br>
+        <strong>First ₹4,00,000:</strong> Nil<br>
+        <strong>Next ₹4,00,000 (₹4,00,001 to ₹8,00,000):</strong> 5% of ₹4,00,000 = ₹20,000<br>
+        <strong>Balance ₹3,50,000 (₹8,00,001 to ₹11,50,000):</strong> 10% of ₹3,50,000 = ₹35,000<br>
+        <strong>Total Tax Computed:</strong> ₹55,000<br>
+        <strong>Rebate Application:</strong> Because Ms. Y's total income is below the ₹12,00,000 threshold, she is entitled to a full rebate under Section 87A up to ₹60,000. <br>
+        <strong>Final Tax Liability:</strong> <strong>Nil</strong><br><br>
+
+        <strong>Example 2: Demonstrating Higher Income Slabs and Cess</strong><br><br>
+        Suppose Mr. Z has a total income of <strong>₹28,00,000</strong> for the Assessment Year 2026-27 under the default tax regime.<br><br>
+        <strong>First ₹4,00,000:</strong> Nil<br>
+        <strong>Next ₹4,00,000 (₹4,00,001 to ₹8,00,000):</strong> 5% = ₹20,000<br>
+        <strong>Next ₹4,00,000 (₹8,00,001 to ₹12,00,000):</strong> 10% = ₹40,000<br>
+        <strong>Next ₹4,00,000 (₹12,00,001 to ₹16,00,000):</strong> 15% = ₹60,000<br>
+        <strong>Next ₹4,00,000 (₹16,00,001 to ₹20,00,000):</strong> 20% = ₹80,000<br>
+        <strong>Next ₹4,00,000 (₹20,00,001 to ₹24,00,000):</strong> 25% = ₹1,00,000<br>
+        <strong>Balance ₹4,00,000 (₹24,00,001 to ₹28,00,000):</strong> 30% = ₹1,20,000<br>
+        <strong>Total Tax Computed:</strong> ₹4,20,000<br>
+        <strong>Rebate Application:</strong> No rebate under Section 87A is available because the income exceeds ₹12,00,000. Surcharge is also not applicable as the income is below ₹50,00,000.<br>
+        <strong>Add Health and Education Cess:</strong> 4% of ₹4,20,000 = ₹16,800<br>
+        <strong>Final Tax Liability:</strong> <strong>₹4,36,800</strong><br><br>
+
+        <strong>Example 3: Demonstrating Marginal Relief on Rebate under Section 87A</strong><br><br>
+        Under the default tax regime (Section 115BAC), a resident individual is entitled to a full tax rebate if their total income is up to ₹12,00,000. However, if the total income exceeds ₹12 lakhs marginally, the law provides for marginal relief to ensure that the extra tax payable does not exceed the extra income earned. 
+        In such cases, the rebate allowed under Section 87A is the difference between the <strong>total tax computed</strong> and the <strong>amount by which the income exceeds ₹12,00,000</strong>, provided the tax amount is greater than the excess income.<br><br>
+        Let us suppose Mr. W, a resident individual, has a total computed income of <strong>₹12,50,000</strong> for the Assessment Year 2026-27 under the default tax regime.<br><br>
+        <strong>Step 1: Calculate the amount by which income exceeds ₹12,00,000 (Let's call this 'A')</strong><br>
+        ₹12,50,000 - ₹12,00,000 = <strong>₹50,000</strong><br><br>
+        <strong>Step 2: Calculate the basic income tax on the total income of ₹12,50,000 (Let's call this 'B')</strong><br>
+        <strong>First ₹4,00,000:</strong> Nil<br>
+        <strong>Next ₹4,00,000 (₹4,00,001 to ₹8,00,000):</strong> 5% of ₹4,00,000 = ₹20,000<br>
+        <strong>Next ₹4,00,000 (₹8,00,001 to ₹12,00,000):</strong> 10% of ₹4,00,000 = ₹40,000<br>
+        <strong>Balance ₹50,000 (₹12,00,001 to ₹12,50,000):</strong> 15% of ₹50,000 = ₹7,500<br>
+        <strong>Total Tax Computed (B):</strong> ₹20,000 + ₹40,000 + ₹7,500 = <strong>₹67,500</strong><br><br>
+        <strong>Step 3: Determine the Rebate under Section 87A</strong><br>
+        Because the tax computed (B = ₹67,500) is strictly greater than the amount by which his income exceeded ₹12 lakhs (A = ₹50,000), Mr. W is eligible for marginal relief.<br>
+        <strong>Rebate = B - A</strong><br>
+        Rebate = ₹67,500 - ₹50,000 = <strong>₹17,500</strong><br><br>
+        <strong>Step 4: Calculate Final Tax Liability</strong><br>
+        Tax payable after rebate = ₹67,500 - ₹17,500 = <strong>₹50,000</strong><br>
+        <strong>Add Health and Education Cess:</strong> 4% of ₹50,000 = <strong>₹2,000</strong><br>
+        <strong>Final Tax Liability:</strong> <strong>₹52,000</strong><br><br>
+`
+    },
+    {
+        question: "47. What is the time limit for exercising option to shift out of default tax regime?",
+        answer: `
+        <br><br>
+        The time limit and conditions for exercising the option to shift out of the default tax regime (Section 115BAC) depend on whether the assessee has income from a business or profession.<br><br>
+        <strong>1. Assessees NOT having income from business or profession</strong><br><br>
+        For individuals, HUFs, AOPs, BOIs, or Artificial Juridical persons who do not have any business or professional income, the option to opt out of the default tax regime must be exercised <strong>along with the return of income furnished under section 139(1)</strong> for the relevant previous year.<br><br>
+        <strong>Flexibility:</strong> These taxpayers can evaluate their tax liability every year and choose whether or not to opt out of the default regime annually.<br><br>
+
+        <strong>2. Assessees HAVING income from business or profession</strong><br><br>
+        For those who earn income from a business or profession, the option to opt out must be exercised <strong>on or before the due date specified under section 139(1)</strong> for furnishing the return of income for that previous year.<br><br>
+        <strong>Permanence:</strong> Once this option is exercised, it applies not only to that year but to all subsequent assessment years.<br><br>
+        <strong>Withdrawal of Option:</strong> A person who has opted out can withdraw this option and revert to the default tax regime <strong>only once</strong> in a subsequent year. Once they withdraw the option and return to the default tax regime, they can never opt out again as long as they have business or professional income.<br><br>
+        <strong>Exception:</strong> If the person ceases to have business or professional income in the future, they revert to the first category and regain the flexibility to choose their tax regime annually.<br><br>
+
+        Here are a few examples to illustrate these rules:<br><br>
+
+        <strong>Example 1: Salaried Employee (No Business Income)</strong><br><br>
+        Mr. Sharma is a salaried employee with no business income. For the Assessment Year (A.Y.) 2026-27, he calculates that the optional (older) tax regime is more beneficial due to his housing loan interest and 80C investments. He opts out of the default regime while filing his return under section 139(1). Next year, for A.Y. 2027-28, his investments reduce, and the default regime becomes more beneficial. Because he has no business income, he can simply choose to stay in the default tax regime for A.Y. 2027-28 without any restrictions.<br><br>
+
+        <strong>Example 2: Freelance Consultant (With Professional Income)</strong><br><br>
+        Ms. Gupta runs a freelance consulting profession. For A.Y. 2026-27, she decides to opt out of the default tax regime by exercising the option on or before the due date of filing her return under section 139(1). This choice is now locked in for A.Y. 2027-28, A.Y. 2028-29, and all future years.<br><br>
+        However, in A.Y. 2029-30, she realizes the default regime's revised slab rates would save her money. She utilizes her "once-in-a-lifetime" chance to withdraw her opt-out choice and shifts back into the default tax regime. From A.Y. 2030-31 onwards, she is permanently locked into the default tax regime and cannot opt out again, as long as she continues her consulting profession.<br><br>
+
+        <strong>Example 3: Ceasing Business Operations</strong><br><br>
+        Continuing from Example 2, suppose Ms. Gupta closes her consulting profession permanently in the previous year relevant to A.Y. 2033-34 and takes up a regular salaried job. Because she ceases to have professional income, the permanent lock-in restriction no longer applies to her. From A.Y. 2033-34 onwards, she regains the annual flexibility to choose between the default and optional tax regimes every year when she files her return.<br><br>
+        
+        For those who earn income from a business or profession, the option to opt out must be exercised <strong>on or before the due date specified under section 139(1)</strong> for furnishing the return of income for that previous year.<strong>Permanence:</strong> Once this option is exercised, it applies not only to that year but to all subsequent assessment years. <br><br>
+        <strong>Withdrawal of Option:</strong> A person who has opted out can withdraw this option and revert to the default tax regime <strong>only once</strong> in a subsequent year. Once they withdraw the option and return to the default regime, they can never opt out again as long as they have business or professional income.<br><br>
+        <strong>Exception:</strong> If the person ceases to have business or professional income in the future, they revert to the first category and regain the flexibility to choose their tax regime annually.<br><br>
+
+        Here are a few examples to illustrate these rules:
+
+        <strong>Example 1: Salaried Employee (No Business Income)</strong><br><br>
+        Mr. Sharma is a salaried employee with no business income. For the Assessment Year (A.Y.) 2026-27, he calculates that the optional (older) tax regime is more beneficial due to his housing loan interest and 80C investments. He opts out of the default regime while filing his return under section 139(1). Next year, for A.Y. 2027-28, his investments reduce, and the default regime becomes more beneficial. Because he has no business income, he can simply choose to stay in the default tax regime for A.Y. 2027-28 without any restrictions. <br><br>
+
+        <strong>Example 2: Freelance Consultant (With Professional Income)</strong><br><br>
+        Ms. Gupta runs a freelance consulting profession. For A.Y. 2026-27, she decides to opt out of the default tax regime by exercising the option on or before the due date of filing her return under section 139(1). This choice is now locked in for A.Y. 2027-28, A.Y. 2028-29, and all future years. <br><br>
+        However, in A.Y. 2029-30, she realizes the default regime's revised slab rates would save her money. She utilizes her "once-in-a-lifetime" chance to withdraw her opt-out choice and shifts back into the default tax regime. From A.Y. 2030-31 onwards, she is permanently locked into the default tax regime and cannot opt out again, as long as she continues her consulting profession.<br><br>
+
+        <strong>Example 3: Ceasing Business Operations</strong><br><br>
+        Continuing from Example 2, suppose Ms. Gupta closes her consulting profession permanently in the previous year relevant to A.Y. 2033-34 and takes up a regular salaried job. Because she ceases to have professional income, the permanent lock-in restriction no longer applies to her. From A.Y. 2033-34 onwards, she regains the annual flexibility to choose between the default and optional tax regimes every year when she files her return.
+        `
+    },
+    {
+        question: "48. What are the tax rates prescribed for the optional tax regime?  How does age of a person affect the tax rates?",
+        answer: `
+        <br><br>
+        Under the optional tax regime (which follows the normal provisions of the Act and the rates prescribed by the Annual Finance Act), tax is levied on individuals progressively using a slab system. <br><br>
+
+        <strong>How Age Affects Tax Rates</strong><br><br>
+        The age of a <strong>resident individual</strong> directly determines their <strong>basic exemption limit</strong>, which is the baseline amount up to which no income tax is payable. As a person crosses specific age thresholds, this exemption limit increases, effectively lowering their overall tax burden. <br><br>
+
+        Furthermore, if a person's birthday falls on April 1st, they are legally considered to have attained their age on March 31st (the day preceding the anniversary of their birthday) for the purpose of determining their eligibility for these higher exemption limits.<br><br>
+
+        The specific slab rates based on age are as follows:<br><br>
+
+        <strong>1. Individuals below 60 years of age</strong> (as well as HUFs, AOPs, BOIs, and Artificial Juridical Persons):<br><br>
+        <ul>
+        <li><strong>Up to ₹ 2,50,000:</strong> NIL</li>
+        <li><strong>₹ 2,50,001 to ₹ 5,00,000:</strong> 5% of the amount exceeding ₹ 2,50,000</li>
+        <li><strong>₹ 5,00,001 to ₹ 10,00,000:</strong> ₹ 12,500 plus 20% of the amount exceeding ₹ 5,00,000</li>
+        <li><strong>Above ₹ 10,00,000:</strong> ₹ 1,12,500 plus 30% of the amount exceeding ₹ 10,00,000.</li>
+        </ul><br>
+
+        <strong>2. Senior Citizens (Resident individuals aged 60 years or more, but less than 80 years):</strong><br><br>
+        <ul>
+        <li><strong>Up to ₹ 3,00,000:</strong> NIL</li>
+        <li><strong>₹ 3,00,001 to ₹ 5,00,000:</strong> 5% of the amount exceeding ₹ 3,00,000</li>
+        <li><strong>₹ 5,00,001 to ₹ 10,00,000:</strong> ₹ 10,000 plus 20% of the amount exceeding ₹ 5,00,000</li>
+        <li><strong>Above ₹ 10,00,000:</strong> ₹ 1,10,000 plus 30% of the amount exceeding ₹ 10,00,000.</li>
+        </ul><br>
+
+        <strong>3. Very Senior Citizens (Resident individuals aged 80 years or more):</strong><br><br>
+        <ul>
+        <li><strong>Up to ₹ 5,00,000:</strong> NIL</li>
+        <li><strong>₹ 5,00,001 to ₹ 10,00,000:</strong> 20% of the amount exceeding ₹ 5,00,000</li>
+        <li><strong>Above ₹ 10,00,000:</strong> ₹ 1,00,000 plus 30% of the amount exceeding ₹ 10,00,000.</li>
+        </ul><br>
+
+        <strong>Illustrative Examples (Assuming all opt out of the default tax regime):</strong><br><br>
+
+        To demonstrate the impact of age, let us look at three resident individuals who each earn a total income of <strong>₹ 12,00,000</strong>, but fall into different age categories.<br><br>
+
+        <strong>Example A: Mr. Anil (Age 45)</strong><br><br>
+        <ul>
+        <li>First ₹ 2,50,000: NIL</li><br>
+        <li>Next ₹ 2,50,000 (₹ 2,50,001 to ₹ 5,00,000 @ 5%): ₹ 12,500</li><br>
+        <li>Next ₹ 5,00,000 (₹ 5,00,001 to ₹ 10,00,000 @ 20%): ₹ 1,00,000</li><br>
+        <li>Balance ₹ 2,00,000 (Above ₹ 10,00,000 @ 30%): ₹ 60,000</li><br>
+        <li><strong>Total basic tax:</strong> ₹ 1,72,500</li><br>
+        <li><strong>Add 4% Cess:</strong> ₹ 6,900</li><br>
+        <li><strong>Final Tax Liability: ₹ 1,79,400</strong></li><br>
+        </ul><br>
+
+        <strong>Example B: Mrs. Neeta (Age 68 - Senior Citizen)</strong><br><br>
+        <ul>
+        <li>First ₹ 3,00,000: NIL</li><br>
+        <li>Next ₹ 2,00,000 (₹ 3,00,001 to ₹ 5,00,000 @ 5%): ₹ 10,000</li><br>
+        <li>Next ₹ 5,00,000 (₹ 5,00,001 to ₹ 10,00,000 @ 20%): ₹ 1,00,000</li><br>
+        <li>Balance ₹ 2,00,000 (Above ₹ 10,00,000 @ 30%): ₹ 60,000</li><br>
+        <li><strong>Total basic tax:</strong> ₹ 1,70,000</li><br>
+        <li><strong>Add 4% Cess:</strong> ₹ 6,800</li><br>
+        <li><strong>Final Tax Liability: ₹ 1,76,800</strong></li><br>
+        </ul><br>
+
+        <strong>Example C: Mr. Kapoor (Age 83 - Very Senior Citizen)</strong><br><br>
+        <ul>
+        <li>First ₹ 5,00,000: NIL</li><br>
+        <li>Next ₹ 5,00,000 (₹ 5,00,001 to ₹ 10,00,000 @ 20%): ₹ 1,00,000</li><br>
+        <li>Balance ₹ 2,00,000 (Above ₹ 10,00,000 @ 30%): ₹ 60,000</li><br>
+        <li><strong>Total basic tax:</strong> ₹ 1,60,000</li><br>
+        <li><strong>Add 4% Cess:</strong> ₹ 6,400</li><br>
+        <li><strong>Final Tax Liability: ₹ 1,66,400</strong></li><br>
+        </ul><br>
+        `
     }
+
 ]
