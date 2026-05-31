@@ -1151,36 +1151,344 @@ The Act differentiates companies based on the level of public involvement and in
 
         <strong>Example A: Mr. Anil (Age 45)</strong><br><br>
         <ul>
-        <li>First ₹ 2,50,000: NIL</li><br>
-        <li>Next ₹ 2,50,000 (₹ 2,50,001 to ₹ 5,00,000 @ 5%): ₹ 12,500</li><br>
-        <li>Next ₹ 5,00,000 (₹ 5,00,001 to ₹ 10,00,000 @ 20%): ₹ 1,00,000</li><br>
-        <li>Balance ₹ 2,00,000 (Above ₹ 10,00,000 @ 30%): ₹ 60,000</li><br>
-        <li><strong>Total basic tax:</strong> ₹ 1,72,500</li><br>
-        <li><strong>Add 4% Cess:</strong> ₹ 6,900</li><br>
-        <li><strong>Final Tax Liability: ₹ 1,79,400</strong></li><br>
+        <li>First ₹ 2,50,000: NIL</li>
+        <li>Next ₹ 2,50,000 (₹ 2,50,001 to ₹ 5,00,000 @ 5%): ₹ 12,500</li>
+        <li>Next ₹ 5,00,000 (₹ 5,00,001 to ₹ 10,00,000 @ 20%): ₹ 1,00,000</li>
+        <li>Balance ₹ 2,00,000 (Above ₹ 10,00,000 @ 30%): ₹ 60,000</li>
+        <li><strong>Total basic tax:</strong> ₹ 1,72,500</li>
+        <li><strong>Add 4% Cess:</strong> ₹ 6,900</li>
+        <li><strong>Final Tax Liability: ₹ 1,79,400</strong></li>
         </ul><br>
 
         <strong>Example B: Mrs. Neeta (Age 68 - Senior Citizen)</strong><br><br>
         <ul>
-        <li>First ₹ 3,00,000: NIL</li><br>
-        <li>Next ₹ 2,00,000 (₹ 3,00,001 to ₹ 5,00,000 @ 5%): ₹ 10,000</li><br>
-        <li>Next ₹ 5,00,000 (₹ 5,00,001 to ₹ 10,00,000 @ 20%): ₹ 1,00,000</li><br>
-        <li>Balance ₹ 2,00,000 (Above ₹ 10,00,000 @ 30%): ₹ 60,000</li><br>
-        <li><strong>Total basic tax:</strong> ₹ 1,70,000</li><br>
-        <li><strong>Add 4% Cess:</strong> ₹ 6,800</li><br>
-        <li><strong>Final Tax Liability: ₹ 1,76,800</strong></li><br>
+        <li>First ₹ 3,00,000: NIL</li>
+        <li>Next ₹ 2,00,000 (₹ 3,00,001 to ₹ 5,00,000 @ 5%): ₹ 10,000</li>
+        <li>Next ₹ 5,00,000 (₹ 5,00,001 to ₹ 10,00,000 @ 20%): ₹ 1,00,000</li>
+        <li>Balance ₹ 2,00,000 (Above ₹ 10,00,000 @ 30%): ₹ 60,000</li>
+        <li><strong>Total basic tax:</strong> ₹ 1,70,000</li>
+        <li><strong>Add 4% Cess:</strong> ₹ 6,800</li>
+        <li><strong>Final Tax Liability: ₹ 1,76,800</strong></li>
         </ul><br>
 
         <strong>Example C: Mr. Kapoor (Age 83 - Very Senior Citizen)</strong><br><br>
         <ul>
-        <li>First ₹ 5,00,000: NIL</li><br>
-        <li>Next ₹ 5,00,000 (₹ 5,00,001 to ₹ 10,00,000 @ 20%): ₹ 1,00,000</li><br>
-        <li>Balance ₹ 2,00,000 (Above ₹ 10,00,000 @ 30%): ₹ 60,000</li><br>
-        <li><strong>Total basic tax:</strong> ₹ 1,60,000</li><br>
-        <li><strong>Add 4% Cess:</strong> ₹ 6,400</li><br>
-        <li><strong>Final Tax Liability: ₹ 1,66,400</strong></li><br>
+        <li>First ₹ 5,00,000: NIL</li>
+        <li>Next ₹ 5,00,000 (₹ 5,00,001 to ₹ 10,00,000 @ 20%): ₹ 1,00,000</li>
+        <li>Balance ₹ 2,00,000 (Above ₹ 10,00,000 @ 30%): ₹ 60,000</li>
+        <li><strong>Total basic tax:</strong> ₹ 1,60,000</li>
+        <li><strong>Add 4% Cess:</strong> ₹ 6,400</li>
+        <li><strong>Final Tax Liability: ₹ 1,66,400</strong></li>
         </ul><br>
         `
-    }
+    },
+    {
+        question: "49. What is the effective rate of tax applied to unexplained money, investments, and expenditures under Section 115BBE, and what is the legislative intent behind taxing these items at this special rate rather than the standard slab rates?",
+        answer: `
+        <br><br>
+        Under Section 115BBE of the Income-tax Act, 1961, any unexplained money, investments, expenditures, or cash credits (falling under Sections 68, 69, 69A, 69B, 69C, or 69D) are taxed at a heavily penalized base rate of 60%. This base rate is further increased by a 25% surcharge (calculated on the tax amount) and a 4% health and education cess (calculated on the combined tax and surcharge). <br><br>
 
-]
+        This combination results in an <strong>effective tax rate of 78%</strong> on such undisclosed items.<br><br>
+
+        <strong>Legislative Intent</strong><br><br>
+        The primary legislative intent behind levying this exceptionally high, flat ta x rate is to <strong>control the laundering of unaccounted money</strong> (black money). <br><br>
+
+        By removing these items from the standard tax slabs, the government prevents tax evaders from utilizing the basic exemption limits or lower progressive tax brackets to minimize their tax liability on undisclosed wealth. To make this provision even more stringent, the law explicitly prohibits the assessee from claiming any basic exemptions, allowances, or expenditure deductions while computing this deemed income. Furthermore, the taxpayer is entirely barred from setting off any current or brought-forward losses against income brought to tax under these sections. <br><br>
+
+        <strong>Illustrative Examples</strong><br><br>
+
+        <strong>Example 1: Unexplained Money (Section 69A)</strong><br><br>
+        Suppose Mr. X, who files his returns with an annual income of ₹6 lakhs, is found to possess an unaccounted stash of ₹30 lakhs in cash during a tax survey. He has no records to prove how he earned this money, and he fails to offer a satisfactory explanation to the Assessing Officer. The entire ₹30 lakhs will be classified as unexplained money. It will not be added to his regular income slabs. Instead, it will be directly taxed at the effective rate of 78%. Consequently, Mr. X will face a tax liability of <strong>₹23.40 lakhs</strong> on this discovery, and he cannot offset any business losses he might have incurred that year against this ₹30 lakhs.<br><br>
+
+        <strong>Example 2: Unexplained Expenditure (Section 69C)</strong><br><br>
+        Mrs. Y declares a modest income from her small retail shop. However, the Assessing Officer uncovers that she recently purchased luxury designer furniture worth ₹15 lakhs for her residence, entirely in cash, without recording it in her books. If Mrs. Y cannot satisfactorily explain the source of the ₹15 lakhs used to fund this purchase, the amount will be deemed as her unexplained expenditure. She will be subjected to a 78% tax on the ₹15 lakhs, resulting in a tax liability of <strong>₹11.70 lakhs</strong>. She will not be allowed to claim this as a deductible expense or utilize any standard exemptions against it.<br><br>
+        `
+    },
+    {
+        question: "50. What are the various components of income on which special rate of tax is applicable?",
+        answer: `
+        <br><br>
+        <strong>1. Long-Term Capital Gains (LTCG) on General Capital Assets [Section 112]</strong><br><br>
+        Long-term capital gains arising from the transfer of capital assets (other than those specifically covered under Section 112A) are subject to special tax rates. <br><br>
+        <strong>Rate of Tax:</strong> <br><br>
+        Generally, it is taxed at <strong>12.5% without indexation</strong>. <br><br>
+        However, if the asset is land or building acquired before 23.7.2024 by a resident individual or HUF, the assessee can choose the lower of <strong>20% with indexation</strong> or <strong>12.5% without indexation</strong>. <br><br>
+        For non-residents transferring unlisted securities or shares of a closely held company, it is taxed at <strong>12.5% without indexation and without foreign currency fluctuation benefits</strong>.<br><br>
+        <em>Example:</em> Suppose Mr. Sharma sells a commercial plot in December 2025 that he had purchased in 2010. Since he is a resident who acquired the property before July 2024, he can calculate his tax liability under both methods (20% with indexation and 12.5% without indexation) and pay whichever amount is lower.<br><br>
+
+        <strong>2. Long-Term Capital Gains (LTCG) on STT-Paid Securities [Section 112A]</strong><br><br>
+        This special rate applies to long-term capital gains arising from the transfer of equity shares in a company, units of an equity-oriented fund, or units of a business trust. To avail of this rate, Securities Transaction Tax (STT) must have been paid (both at acquisition and transfer for equity shares, and at the time of transfer for mutual fund/business trust units).<br><br>
+        <strong>Rate of Tax:</strong> It is taxed at <strong>12.5% on the gain amount that exceeds ₹ 1.25 lakhs</strong> in a previous year. The first ₹ 1.25 lakhs of such gains are completely exempt.<br><br>
+        <em>Example:</em> Ms. Gupta sells her long-held equity shares of a listed company on the Bombay Stock Exchange and makes a total long-term capital gain of ₹ 5,00,000. She will get a standard exemption of ₹ 1.25 lakhs. The remaining ₹ 3,75,000 will be taxed at the special rate of 12.5%.<br><br>
+
+        <strong>3. Short-Term Capital Gains (STCG) on STT-Paid Securities [Section 111A]</strong><br><br>
+        This applies to short-term capital gains on the transfer of equity shares, units of an equity-oriented fund, or units of a business trust, provided the transaction was entered into on or after 1.10.2004 and is chargeable to STT.<br><br>
+        <strong>Rate of Tax:</strong> These short-term gains are taxed at a flat rate of <strong>20%</strong>.<br><br>
+        <em>Example:</em> Mr. Patel buys units of an equity-oriented mutual fund and sells them within 4 months, paying STT on the sale. He earns a short-term profit of ₹ 3,00,000. Instead of being added to his regular income slabs, this ₹ 3,00,000 will be taxed exactly at 20%.<br><br>
+
+        <strong>4. Winnings from Lotteries, Crossword Puzzles, Races, etc. [Section 115BB]</strong><br><br>
+        Any income earned by way of winnings from lotteries, crossword puzzles, races (including horse races), card games, and any other games of any sort, or from gambling or betting of any form (excluding online games) is taxed under this specific section.<br><br>
+        <strong>Rate of Tax:</strong> A flat rate of <strong>30%</strong> is applicable.<br><br>
+        <em>Example:</em> Mrs. Rao buys a state lottery ticket and wins a prize of ₹ 10,00,000. This entire amount will be subjected to a strict 30% tax, and she cannot claim any basic exemption limit or expenditure deduction against this winning.<br><br>
+
+        <strong>5. Net Winnings from Online Games [Section 115BBJ]</strong><br><br>
+        With the rise of the digital gaming industry, a specific provision governs the net winnings from any online game.<br><br>
+        <strong>Rate of Tax:</strong> The net winnings from online games are taxed at a flat rate of <strong>30%</strong>.<br><br>
+        <em>Example:</em> Mr. Singh plays real-money online fantasy sports throughout the year. After deducting his entry fees from his total winnings, his net winnings for the year amount to ₹ 1,50,000. This amount will be taxed directly at 30%.<br><br>
+
+        <strong>6. Unexplained Money, Investments, and Expenditures [Section 115BBE]</strong><br><br>
+        To penalize the laundering of unaccounted money, any income deemed as undisclosed under sections 68, 69, 69A, 69B, 69C, or 69D (such as cash credits, unexplained investments, or unrecorded expenditures) falls under this penal section.<br><br>
+        <strong>Rate of Tax:</strong> The base rate is <strong>60%</strong>, which is compulsorily increased by a 25% surcharge and a 4% health and education cess. This results in an <strong>effective tax rate of 78%</strong>. Furthermore, no basic exemptions, allowances, expenditures, or set-off of losses are permitted against this income.<br><br>
+        <em>Example:</em> During a tax scrutiny, the Assessing Officer discovers that Mr. Khan owns unaccounted diamond jewellery worth ₹ 40,00,000, which is not recorded in his books. Since Mr. Khan cannot explain the source of funds used to acquire it, the entire ₹ 40 lakhs is deemed as his income and taxed at the effective rate of 78%, leading to a massive tax liability of ₹ 31,20,000.<br><br>
+        <strong>Important Note on Application:</strong><br><br>
+        These special rates of tax must be applied to their respective components of total income exactly as prescribed, <strong>irrespective of whether the taxpayer has opted for the default tax regime (Section 115BAC) or the optional tax regime</strong>. The standard slab rates are only applied to the balance of the total income after separating these specific income components.
+        `
+    },
+    {
+        question: "51. What are the rules for income tax on a Co-Operative Society?",
+        answer: `
+        <br><br>
+        Under the Income-tax Act, 1961, Co-operative Societies can choose to be taxed either under the <strong>normal slab-based provisions</strong> or opt for <strong>concessional flat-rate tax regimes</strong>, depending on their eligibility and preferences.
+
+        <strong>1. Normal Provisions (Optional Tax Regime)</strong><br><br>
+        If a co-operative society does not opt for any special concessional regime, it is taxed using a progressive slab system. The basic tax rates are:<br><br>
+        <ul>
+        <li><strong>Up to ₹10,000:</strong> Taxed at <strong>10%</strong> of the total income.</li>
+        <li><strong>From ₹10,001 to ₹20,000:</strong> <strong>₹1,000</strong> plus <strong>20%</strong> of the amount by which the total income exceeds ₹10,000.</li>
+        <li><strong>Above ₹20,000:</strong> <strong>₹3,000</strong> plus <strong>30%</strong> of the amount by which the total income exceeds ₹20,000.</li>
+        </ul>
+
+        <strong>Surcharge and Cess (under normal provisions):</strong><br><br>
+        <ul>
+        <li>If total income is <strong>between ₹1 crore and ₹10 crore</strong>, a surcharge of <strong>7%</strong> is applied to the income-tax (subject to marginal relief).</li>
+        <li>If total income <strong>exceeds ₹10 crore</strong>, a surcharge of <strong>12%</strong> is applied (subject to marginal relief).</li>
+        <li>A <strong>4% Health and Education Cess</strong> is added to the total tax and surcharge. </li>
+        </ul>
+
+        <strong>Example 1: Normal Tax Regime</strong><br><br>
+        Suppose a regular housing co-operative society earns a total income of ₹1,20,000 during the year and does not opt for any concessional regime.<br><br>
+        <ul>
+        <li><strong>First ₹10,000:</strong> 10% = ₹1,000 </li>
+        <li><strong>Next ₹10,000 (₹10,001 to ₹20,000):</strong> 20% = ₹2,000</li>
+        <li><strong>Balance ₹1,00,000 (Above ₹20,000):</strong> 30% = ₹30,000</li>
+        <li><strong>Total Basic Tax:</strong> ₹1,000 + ₹2,000 + ₹30,000 = ₹33,000</li>
+        <li><strong>Add 4% Cess:</strong> ₹1,320</li>
+        <li><strong>Final Tax Liability:</strong> <strong>₹34,320</strong></li>
+        </ul>
+
+        <strong>2. Concessional Tax Regimes (Sections 115BAD and 115BAE)</strong><br><br>
+        To reduce the tax burden, resident co-operative societies have the option to choose specific concessional tax regimes, provided they fulfill certain conditions.<br><br>
+        <ul>
+        <li><strong>Manufacturing Co-operative Societies (Section 115BAE):</strong> A new resident manufacturing co-operative society that is set up and registered on or after April 1, 2023, and commences the manufacture of an article or thing before March 31, 2024, can opt to be taxed at a highly concessional rate of <strong>15%</strong> on income derived from or incidental to manufacturing.</li>
+        <li><strong>Other Co-operative Societies (Section 115BAD):</strong> Any other resident co-operative society can opt for a concessional flat tax rate of <strong>22%</strong> on its total income.</li>
+        </ul>
+
+        <strong>Conditions for opting into the Concessional Regimes:</strong><br><br>
+        To avail of these lower rates (15% or 22%), the co-operative society must forego various standard exemptions and deductions. Specifically, their total income must be computed without giving effect to:<br><br>
+        <ul>
+        <li>Deductions under sections like 10AA, 33AB, 35AD, and Chapter VI-A deductions (except section 80JJAA for employment of new employees).</li>
+        <li>Additional depreciation under section 32(1)(iia).</li>
+        <li>Set-off of brought-forward losses and unabsorbed depreciation related to these foregone deductions.</li>
+        <li>Additionally, societies opting for these regimes are <strong>exempt from the Alternate Minimum Tax (AMT) under Section 115JC</strong>.</li>
+        </ul>
+
+        <strong>Surcharge and Cess (under concessional regimes):</strong><br><br>
+        If a co-operative society opts for either Section 115BAD or 115BAE, a <strong>flat surcharge of 10%</strong> is levied on the computed income tax, regardless of the level of total income. Because there is no minimum threshold for this surcharge, <strong>no marginal relief is available</strong>. A 4% Health and Education Cess is subsequently applied on the tax and surcharge.<br><br>
+
+        <strong>Example 2: Manufacturing Co-operative Society (Section 115BAE)</strong><br><br>
+        Suppose a newly established manufacturing co-operative society (registered in May 2023 and manufacturing started in December 2023) opts for Section 115BAE. It earns a total manufacturing income of ₹50,00,000 during the year. <br><br>
+        <ul>
+        <li><strong>Basic Tax (15% on ₹50,00,000):</strong> ₹7,50,000</li>
+        <li><strong>Add Flat 10% Surcharge (mandatory for this regime):</strong> ₹75,000</li>
+        <li><strong>Tax + Surcharge:</strong> ₹8,25,000</li>
+        <li><strong>Add 4% Health and Education Cess:</strong> ₹33,000</li>
+        <li><strong>Final Tax Liability:</strong> <strong>₹8,58,000</strong> </li>
+        </ul>
+        (Note: If the society had not opted for this regime, its basic tax would have been over ₹14 Lakhs under the 30% slab).<br><br>
+`
+    },
+    {
+        question: "52. What are the various rates of income tax and surcharge applicable to a domestic company under the standard provisions of the Income-tax Act, and how do these rates differ if the company opts for the concessional tax regimes under Section 115BAA or Section 115BAB?",
+        answer: `
+        <strong>Standard Tax Regimes for a Domestic Company</strong><br><br>
+        Under the standard provisions, a domestic company is taxed based on its total turnover or gross receipts from a specific preceding year:<br><br>
+        <ul>
+        <li><strong>25% tax rate:</strong> Applicable if the company's total turnover or gross receipts in the previous year 2023-24 were <strong>up to ₹400 crore</strong>.
+        </li>
+        <li><strong>30% tax rate:</strong> Applicable in any other case (i.e., if turnover exceeded ₹400 crore).
+        </li>
+        </ul>
+        For companies under this standard regime, the <strong>surcharge</strong> is levied progressively based on total income:<br><br>
+        <ul>
+        <li><strong>7%</strong> if the total income exceeds ₹1 crore but is up to ₹10 crore.
+        </li>
+        <li><strong>12%</strong> if the total income exceeds ₹10 crore.
+        </li>
+        </ul>
+        (Note: Marginal relief is available to ensure that the extra tax payable does not exceed the income earned above these thresholds).<br><br>
+        <strong>Concessional Tax Regimes (Sections 115BAA and 115BAB)</strong><br><br>
+        If a domestic company is willing to forego certain standard exemptions, allowances, and deductions (like additional depreciation, investment-linked incentives, and Chapter VI-A deductions other than 80JJAA/80M), it can opt for highly concessional tax rates:<br><br>
+        <ul>
+        <li><strong>15% tax rate (Section 115BAB):</strong> Specifically for new domestic manufacturing companies that were set up and registered on or after October 1, 2019, and commenced manufacturing an article or thing before March 31, 2024.
+        </li>
+        <li><strong>22% tax rate (Section 115BAA):</strong> Available to any domestic company.
+        </li>
+        </ul>
+        If a company opts for either of these concessional regimes, the <strong>surcharge rules change completely</strong>. Instead of a progressive slab, a <strong>flat surcharge of 10%</strong> is applied to the income-tax, regardless of the company's total income level. Because there is no threshold limit for this surcharge, <strong>no marginal relief is available</strong>. 
+        <br><br>
+        Under all regimes, a <strong>4% Health and Education Cess</strong> is additionally levied on the total tax and surcharge.<br><br>
+        Here is a practical, step-by-step tax calculation for a domestic company to illustrate how the standard and concessional tax regimes compare. <br><br>
+
+        <strong>Scenario:</strong><br><br>
+        Suppose <strong>Alpha Tech Pvt. Ltd.</strong> is a domestic company. Its total turnover in the previous year (P.Y.) 2023-24 was <strong>₹350 crore</strong>. For the current P.Y. 2025-26, the company's computed total income is <strong>₹12,00,00,000 (₹12 Crore)</strong>. 
+
+        Let us calculate the tax liability under two options: the standard tax provisions and the concessional tax regime under Section 115BAA.<br><br>
+        
+
+        <strong>Option 1: Under the Standard Tax Provisions</strong><br><br>
+        Since the company's turnover in P.Y. 2023-24 was up to ₹400 crore, it is eligible for the standard base tax rate of 25%. Furthermore, because its total income exceeds ₹10 crore, a surcharge of 12% is applicable.<br><br>
+        <ul>
+        <li><strong>Step 1: Compute Base Tax</strong>
+            25% of ₹12,00,00,000 = <strong>₹3,00,00,000</strong>
+        </li>
+        <li><strong>Step 2: Add Surcharge</strong>
+            Since total income is > ₹10 crore, a 12% surcharge applies.
+            12% of ₹3,00,00,000 = <strong>₹36,00,000</strong>
+        </li>
+        <li><strong>Step 3: Total Tax and Surcharge</strong>
+            ₹3,00,00,000 + ₹36,00,000 = <strong>₹3,36,00,000</strong> 
+        </li>
+            <small>(Note: Marginal relief does not apply here as the extra income of ₹2 crore far exceeds the additional tax burden caused by crossing the ₹10 crore threshold)</small><br><br>
+        <li><strong>Step 4: Add Health and Education Cess</strong>
+            4% of ₹3,36,00,000 = <strong>₹13,44,000</strong>
+        </li>
+        <li><strong>Final Tax Liability (Option 1):</strong> ₹3,36,00,000 + ₹13,44,000 = <strong>₹3,49,44,000</strong>
+        </li>
+        </ul>
+        <br><br>
+
+        <strong>Option 2: Under Concessional Tax Regime (Section 115BAA)</strong><br><br>
+        If Alpha Tech Pvt. Ltd. opts for Section 115BAA, it must forego certain standard exemptions and deductions, but it benefits from a lower base tax rate of 22%. Under this regime, a flat surcharge of 10% is mandatory, regardless of the income level. 
+        <br><br>
+        <ul>
+        <li><strong>Step 1: Compute Base Tax</strong>
+            22% of ₹12,00,00,000 = <strong>₹2,64,00,000</strong>
+        </li>
+        <li><strong>Step 2: Add Flat Surcharge</strong>
+            A flat 10% surcharge applies.
+            10% of ₹2,64,00,000 = <strong>₹26,40,000</strong>
+        </li>
+        <li><strong>Step 3: Total Tax and Surcharge</strong>
+            ₹2,64,00,000 + ₹26,40,000 = <strong>₹2,90,40,000</strong>
+        </li>
+        <li><strong>Step 4: Add Health and Education Cess</strong>
+            4% of ₹2,90,40,000 = <strong>₹11,61,600</strong>
+        </li>
+        <li><strong>Final Tax Liability (Option 2):</strong> ₹2,90,40,000 + ₹11,61,600 = <strong>₹3,02,01,600</strong>
+        </li>
+        </ul>
+        
+        <strong>Conclusion:</strong><br><br>
+        By opting for the concessional tax regime under Section 115BAA, Alpha Tech Pvt. Ltd. would have a tax liability of <strong>₹3,02,01,600</strong>, compared to <strong>₹3,49,44,000</strong> under the standard provisions. Opting for Section 115BAA saves the company <strong>₹47,42,400</strong>, provided they are willing to forego the specific deductions restricted under this regime.
+        `
+    },
+    {
+        question: "53. What are the prescribed rates of income tax and surcharge applicable to a foreign company under the provisions of the Income-tax Act?",
+        answer: `
+        <strong>Rates of Income Tax for a Foreign Company</strong><br><br>
+        Under the standard provisions, a foreign company is taxed at different rates depending on the nature of its income:<br><br>
+        <ul>
+        <li><strong>50% tax rate:</strong> This specific rate applies to income from royalties and fees for rendering technical services (FTS) received from the Government or an Indian concern. To attract this rate, the payment must be pursuant to an approved agreement made between 1.4.1961 and 31.3.1976 for royalties, and between 1.3.1964 and 31.3.1976 for FTS. 
+        </li>
+        <li><strong>35% tax rate:</strong> This standard rate is applicable to any other regular income earned by the foreign company.
+        </li>
+        </ul>
+        <small>Note: Special rates for capital gains under Sections 111A, 112, and 112A are also applicable to foreign companies, just as they are to domestic companies. For instance, long-term capital gains from unlisted securities or shares of closely held companies by a non-resident are taxed at 12.5% without indexation and without foreign currency fluctuation benefits).</small>
+        <br><br>
+        <strong>Surcharge on Foreign Companies</strong><br><br>
+        Compared to domestic companies, foreign companies are subject to lower progressive surcharge rates:
+        <ul>
+        <li><strong>2% surcharge:</strong> Applicable if the total income exceeds ₹1 crore but is up to ₹10 crore.
+        </li>
+        <li><strong>5% surcharge:</strong> Applicable if the total income exceeds ₹10 crore.
+        </li>
+        </ul>
+        <small>Note: Marginal relief is available under both thresholds to ensure that the additional tax and surcharge payable does not exceed the extra income earned above ₹1 crore or ₹10 crore, respectively.</small>
+        <br><br>
+        <strong>Health and Education Cess</strong>
+        <br><br>
+        Across all cases, a <strong>4% Health and Education Cess</strong> is additionally levied on the computed amount of income tax and surcharge.
+        `
+    },
+    {
+        question: "54. What is the concept of 'partial integration of agricultural income with non-agricultural income under the Income-tax Act, and how is the tax liability calculated?",
+        answer: `
+        Agricultural income is generally exempt from income tax under section 10(1), the Income-tax Act lays down a specific method to tax non-agricultural income at a higher progressive rate if an assessee also earns agricultural income. This indirect method of taxation is known as <strong>partial integration of agricultural income with non-agricultural income</strong>. 
+        <br><br>
+        <strong>Applicability and Conditions:</strong><br><br>
+        The partial integration rules apply only to <strong>individuals, HUFs, AOPs, BOIs, and artificial juridical persons</strong>. They do not apply to companies, LLPs, firms, co-operative societies, or local authorities. 
+        <br><br>
+        For the partial integration provisions to be triggered, <strong>both of the following conditions must be satisfied</strong>:<br><br>
+        1.  The <strong>net agricultural income must exceed ₹5,000</strong> during the previous year.<br><br>
+        2.  The <strong>non-agricultural income must exceed the basic exemption limit</strong> (the maximum amount not chargeable to tax). <br><br>
+            *   Under the <strong>default tax regime (Section 115BAC)</strong>, this limit is <strong>₹4,00,000</strong>, irrespective of the person's age.<br><br>
+            *   Under the <strong>optional tax regime</strong>, the limit depends on age: <strong>₹2,50,000</strong> for standard individuals, <strong>₹3,00,000</strong> for senior citizens (60–79 years), and <strong>₹5,00,000</strong> for very senior citizens (80+ years).<br><br>
+        <strong>Steps for Tax Calculation:</strong><br><br>
+        <ul>
+        <li><strong>Step 1:</strong> Add the non-agricultural income and the net agricultural income together, and compute the income tax on this aggregate amount.
+        </li>
+        <li><strong>Step 2:</strong> Add the net agricultural income to the applicable basic exemption limit, and compute the income tax on this combined amount.
+        </li>
+        <li><strong>Step 3:</strong> Subtract the tax computed in Step 2 from the tax computed in Step 1 (i.e., Step 1 - Step 2). This is the basic tax payable.
+        </li>
+        <li><strong>Step 4:</strong> Add any applicable Surcharge, or deduct any applicable Rebate under section 87A.
+        </li>
+        <li><strong>Step 5:</strong> Add the Health and Education Cess at the rate of 4% to arrive at the final tax liability.
+        </li>
+        </ul>
+
+        <strong>Illustration:</strong><br><br>
+        Suppose Mr. X (aged 45 years) has a non-agricultural business income of ₹15,00,000 and a net agricultural income of ₹4,00,000 for the A.Y. 2026-27. Since both conditions are met (agricultural income > ₹5,000 and non-agricultural income > basic exemption of ₹4,00,000), partial integration applies.<br>
+        <ul>
+        <li><strong>Step 1:</strong> Tax on aggregate income (₹15,00,000 + ₹4,00,000 = ₹19,00,000).<br><br>
+        <ul>
+        <li>First ₹4L: Nil</li>
+        <li>₹4L to ₹8L (5% of 4L): ₹20,000</li>
+        <li>₹8L to ₹12L (10% of 4L): ₹40,000</li>
+        <li>₹12L to ₹16L (15% of 4L): ₹60,000</li>
+        <li>₹16L to ₹19L (20% of 3L): ₹60,000</li>
+        </ul>
+        <li>Total Tax (Step 1): ₹1,80,000</li><br><br>
+        <li><strong>Step 2:</strong> Tax on (Agricultural Income + Basic Exemption Limit) = (₹4,00,000 + ₹4,00,000) = ₹8,00,000.<br>
+        </li>
+        <li>First ₹4L: Nil</li>
+        <li>₹4L to ₹8L (5% of 4L): ₹20,000</li>
+        <li>Total Tax (Step 2): ₹20,000</li>
+        <li><strong>Step 3:</strong> Tax Payable (Step 1 - Step 2) = ₹1,80,000 - ₹20,000 = ₹1,60,000</li><br>
+        <li>Step 4 & 5: Add 4% Health & Education Cess (4% of ₹1,60,000) = ₹6,400.</li><br>
+        <li>Final Tax Liability: ₹1,66,400</li><br>
+        </ul>
+        <br>
+        <strong>Example 2: Under the Optional Tax Regime (Normal Provisions)</strong><br><br>
+        Suppose Mr. Y is a senior citizen (aged 65 years), meaning his basic exemption limit is ₹3,00,000. He opts out of the default regime. His non-agricultural income (pension and interest) is ₹8,00,000 and his net agricultural income is ₹5,00,000.
+        <ul>
+        <li><strong>Step 1:</strong> Tax on aggregate income (₹8,00,000 + ₹5,00,000 = ₹13,00,000).<br><br>
+        <ul>
+        <li>First ₹3L: Nil</li>
+        <li>₹3L to ₹5L (5% of 2L): ₹10,000</li>
+        <li>₹5L to ₹10L (20% of 5L): ₹1,00,000</li>
+        <li>₹10L to ₹13L (30% of 3L): ₹90,000</li>
+        </ul>
+        <li>Total Tax (Step 1): ₹2,00,000</li><br><br>
+        <li><strong>Step 2:</strong> Tax on (Agricultural Income + Basic Exemption Limit) = (₹5,00,000 + ₹3,00,000) = ₹8,00,000.<br>
+        </li>
+        <li>First ₹3L: Nil</li>
+        <li>₹3L to ₹5L (5% of 2L): ₹10,000</li>
+        <li>₹5L to ₹8L (20% of 3L): ₹60,000</li>
+        <li>Total Tax (Step 2): ₹70,000</li>
+        <li><strong>Step 3:</strong> Tax Payable (Step 1 - Step 2) = ₹2,00,000 - ₹70,000 = <strong>₹1,30,000</strong><br>
+        <li><strong>Step 4 & 5:</strong> Add 4% Health & Education Cess (4% of ₹1,30,000) = ₹5,200.<br>
+        <li>Final Tax Liability: <strong>₹1,35,200</strong><br>
+        `
+    }
+];
