@@ -38,6 +38,31 @@
             padding: 20px;
         }
 
+        /* --- NEW STYLES FOR MASTER HOME BUTTON --- */
+        .master-home-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--text-light);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+            padding: 10px 16px;
+            border-radius: 8px;
+            background-color: var(--card-bg);
+            border: 1px solid var(--border);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+            transition: all 0.2s ease;
+        }
+
+        .master-home-btn:hover {
+            color: var(--primary);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
         /* Header Section */
         .app-header {
             text-align: center;
@@ -154,9 +179,14 @@
 <body>
 
     <div class="app-container">
+
+        <a href="../index.html" class="master-home-btn">
+            <i class="fas fa-home"></i> All Subjects
+        </a>
+
         <header class="app-header">
             <h1>Income Tax Law</h1>
-            <p>Income Tax Act 1961, Rules , Circulars and Case Laws </p>
+            <p>Income Tax Act 1961, Rules, Circulars and Case Laws</p>
         </header>
 
         <main class="chapter-grid" id="chapter-grid">
@@ -175,7 +205,7 @@
             {
                 id: '02',
                 name: 'Residential Status and Scope of Total Income',
-                description: 'Determination of Residencial Status and scope of income based on residential status',
+                description: 'Determination of Residential Status and scope of income based on residential status',
                 icon: 'fas fa-home'
             },
             {
