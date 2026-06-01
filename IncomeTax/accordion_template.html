@@ -7,6 +7,42 @@
     <title>Subject Viewer</title>
     <link rel="stylesheet" href="accordion_style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Additional inline styles for dynamic coloring */
+        .accordion-btn.active .icon {
+            background: var(--primary);
+            color: white;
+        }
+        
+        .accordion-btn .icon {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .accordion-panel .panel-content {
+            animation: fadeSlideIn 0.3s ease-out;
+        }
+        
+        @keyframes fadeSlideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Loading state styling */
+        #accordion-container:empty::before {
+            content: "📚 Loading chapter content...";
+            display: block;
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-light);
+            font-size: 1rem;
+        }
+    </style>
 </head>
 
 <body>
@@ -22,10 +58,11 @@
 
         <div class="search-container">
             <i class="fas fa-search search-icon"></i>
-            <input type="text" id="search-input" placeholder="Search keywords in this chapter...">
+            <input type="text" id="search-input" placeholder="🔍 Search keywords in this chapter...">
         </div>
 
         <main class="accordion-container" id="accordion-container">
+            <!-- Loading indicator will appear here via CSS -->
         </main>
     </div>
 
@@ -47,10 +84,17 @@
 
         // Error: Handle missing files gracefully
         script.onerror = function () {
-            document.getElementById('chapter-title').textContent = "Chapter Not Found";
+            document.getElementById('chapter-title').textContent = "📖 Chapter Not Found";
             document.getElementById('chapter-info').textContent = "The requested data file could not be loaded.";
-            document.getElementById('accordion-container').innerHTML = '<p style="padding: 20px;">Return to the home page and try another chapter.</p>';
-            document.querySelector('.search-container').style.display = 'none'; // Hide search if no data
+            document.getElementById('accordion-container').innerHTML = `
+                <div style="background: white; border-radius: 12px; padding: 60px 20px; text-align: center; border: 1px solid var(--border);">
+                    <i class="fas fa-book-open" style="font-size: 48px; color: var(--primary); margin-bottom: 20px; display: block;"></i>
+                    <h3 style="margin-bottom: 10px;">Chapter Not Available</h3>
+                    <p style="color: var(--text-light); margin-bottom: 20px;">The chapter you're looking for doesn't exist yet.</p>
+                    <a href="index.html" style="color: var(--primary); text-decoration: none; font-weight: 600;">← Back to Chapters</a>
+                </div>
+            `;
+            document.querySelector('.search-container').style.display = 'none';
         };
 
         document.head.appendChild(script);

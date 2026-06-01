@@ -87,15 +87,15 @@ const qaList = [
             Ms. Iyer, an Indian citizen who settled in the UK five years ago, comes to India on a long family visit. She stays in India for 170 days during the P.Y. 2025-26. Her only Indian income for the year is ₹8,00,000 from interest on fixed deposits. <br><br>
             <strong>Application:</strong> She is an Indian citizen visiting India. 
             <strong>Application:</strong> Because she is an Indian citizen visiting India and her Indian income (₹8 lakhs) does not exceed the ₹15 lakhs threshold, the 60-day rule does not apply to her; she must stay for 182 days to be considered a resident. Since she stayed for only 170 days, <strong>Ms. Iyer will be classified as a non-resident</strong>. <br><br>
-            (If her interest income had been ₹18 lakhs, the substitution would have been 120 days, and her 170-day stay would have made her a <b>resident but not ordinarily resident</b>).<br><br>
+            (If her interest income had been ₹18 lakhs, the substitution would have been 120 days, and her 170-day stay would have made her a <strong>resident but not ordinarily resident</strong>).<br><br>
         `
     },
     {
         question: "5. Who qualifies as a \"person of Indian origin\" according to the Income-tax Act?",
         answer: `
-            According to the Income-tax Act, an individual qualifies as a <b>\"person of Indian origin\"</b> if they themselves, or either of their parents, or either of their grandparents were born in undivided India. <br><br>
+            According to the Income-tax Act, an individual qualifies as a <strong>\"person of Indian origin\"</strong> if they themselves, or either of their parents, or either of their grandparents were born in undivided India. <br><br>
 
-            <b>Example:</b><br><br>
+            <strong>Example:</strong><br><br>
             If Mr. Smith was born in Canada and his parents were also born in Canada, but his maternal grandmother was born in Dhaka in 1935 (which was part of undivided India before the 1947 partition), Mr. Smith would legally qualify as a person of Indian origin under the Act. Consequently, special provisions regarding the minimum period of stay required to establish residential status in India during a visit would apply to him.<br><br>
 
         `
@@ -103,18 +103,18 @@ const qaList = [
     {
         question: "6. If an Indian citizen or a person of Indian origin comes on a visit to India, under what condition is the requirement for their stay modified to \"120 days or more\" instead of 182 days?",
         answer: `
-            According to the Income-tax Act, when an Indian citizen or a person of Indian origin who resides outside India comes on a visit to India, the condition for their stay is modified to <b>"120 days or more"</b> (instead of 182 days) if their <b>total income from Indian sources (i.e., total income excluding income from foreign sources) exceeds ₹ 15 lakhs</b> during the relevant previous year. <br><br>
+            According to the Income-tax Act, when an Indian citizen or a person of Indian origin who resides outside India comes on a visit to India, the condition for their stay is modified to <strong>"120 days or more"</strong> (instead of 182 days) if their <strong>total income from Indian sources (i.e., total income excluding income from foreign sources) exceeds ₹ 15 lakhs</strong> during the relevant previous year. <br><br>
 
             Under this modified rule, such an individual will be treated as a resident if they satisfy both of the following conditions together:<br><br>
-            1. They have been in India for at least <b>120 days</b> during the relevant previous year, <b>AND</b><br><br>
-            2. They have been in India for a total period of <b>365 days or more</b> during the 4 years immediately preceding the previous year.<br><br>
+            1. They have been in India for at least <strong>120 days</strong> during the relevant previous year, <strong>AND</strong><br><br>
+            2. They have been in India for a total period of <strong>365 days or more</strong> during the 4 years immediately preceding the previous year.<br><br>
 
-            <b>Important Note:</b> If an individual qualifies as a resident by satisfying this specific 120-day criteria, their residential status is automatically assigned as a <b>"Resident but not ordinarily resident" (RNOR)</b>. <br><br>
+            <strong>Important Note:</strong> If an individual qualifies as a resident by satisfying this specific 120-day criteria, their residential status is automatically assigned as a <strong>"Resident but not ordinarily resident" (RNOR)</strong>. <br><br>
 
-            <b>Example:</b><br><br>
+            <strong>Example:</strong><br><br>
             Mr. Patel, a person of Indian origin settled in Canada, visits India for 135 days during the previous year 2025-26. His total stay in India during the preceding four years was 400 days. <br><br>
-            <b>Scenario A (Income &le; ₹15 Lakhs):</b> Mr. Patel's Indian income (from house property and bank interest) is ₹ 12 lakhs. Since his Indian income does not exceed the ₹ 15 lakhs threshold, the 182-day rule applies. Because his stay of 135 days is less than 182 days, he is classified as a <b>Non-Resident</b>.<br><br>
-            <b>Scenario B (Income > ₹15 Lakhs):</b> Mr. Patel's Indian income is ₹ 18 lakhs. Because his Indian income exceeds ₹ 15 lakhs, the modified 120-day rule applies. Since he stayed for 135 days in the current year (which is &ge; 120 days) and 400 days in the preceding four years (which is &ge; 365 days), he is classified as a <b>Resident but not ordinarily resident (RNOR)</b>.<br><br>
+            <strong>Scenario A (Income &le; ₹15 Lakhs):</strong> Mr. Patel's Indian income (from house property and bank interest) is ₹ 12 lakhs. Since his Indian income does not exceed the ₹ 15 lakhs threshold, the 182-day rule applies. Because his stay of 135 days is less than 182 days, he is classified as a <strong>Non-Resident</strong>.<br><br>
+            <strong>Scenario B (Income > ₹15 Lakhs):</strong> Mr. Patel's Indian income is ₹ 18 lakhs. Because his Indian income exceeds ₹ 15 lakhs, the modified 120-day rule applies. Since he stayed for 135 days in the current year (which is &ge; 120 days) and 400 days in the preceding four years (which is &ge; 365 days), he is classified as a <strong>Resident but not ordinarily resident (RNOR)</strong>.<br><br>
         `
     },
     {
@@ -122,113 +122,113 @@ const qaList = [
         answer: `
             Under the Income-tax Act, calculating the period of stay in India for an Indian citizen who is a crew member of a foreign-bound ship is governed by specific guidelines to remove uncertainties regarding their physical presence during the voyage. <br><br>
 
-            To address this, Rule 126 prescribes that a specific continuous period is entirely <b>excluded</b> from the calculation of their total number of days stayed in India. <br><br>
+            To address this, Rule 126 prescribes that a specific continuous period is entirely <strong>excluded</strong> from the calculation of their total number of days stayed in India. <br><br>
 
-            <b>The Role of the Continuous Discharge Certificate (CDC)</b><br><br>
+            <strong>The Role of the Continuous Discharge Certificate (CDC)</strong><br><br>
 
             The Continuous Discharge Certificate acts as the official documentary evidence to determine this excluded period. According to Rule 126, the period to be excluded from the individual's stay in India is calculated as follows:<br><br>
             <ul>
-                <li><b>Start Date:</b> The exact date entered into the Continuous Discharge Certificate in respect of the individual joining the ship for the eligible voyage.<br><br></li>
-                <li><b>End Date:</b> The exact date entered into the Continuous Discharge Certificate in respect of the individual signing off from the ship for that voyage.<br><br></li>
+                <li><strong>Start Date:</strong> The exact date entered into the Continuous Discharge Certificate in respect of the individual joining the ship for the eligible voyage.<br><br></li>
+                <li><strong>End Date:</strong> The exact date entered into the Continuous Discharge Certificate in respect of the individual signing off from the ship for that voyage.<br><br></li>
             </ul>
 
             (Note: An "eligible voyage" is defined as a voyage by a ship carrying passengers or freight in international traffic that either originates from a port in India with a destination outside India, or originates from a port outside India with a destination in India).*<br><br>
 
-            <b>Illustrative Example:</b><br><br>
+            <strong>Illustrative Example:</strong><br><br>
 
             Suppose Mr. Ravi, an Indian citizen, is a crew member on an Indian freight ship. The ship departs from Kochi (India) to Sydney (Australia), qualifying as an eligible voyage. For the previous year 2025-26, his Continuous Discharge Certificate records the following:<br><br>
             <ul>
-                <li><b>Date of joining the ship:</b> July 5, 2025<br><br></li>
-                <li><b>Date of signing off:</b> January 15, 2026<br><br></li>
+                <li><strong>Date of joining the ship:</strong> July 5, 2025<br><br></li>
+                <li><strong>Date of signing off:</strong> January 15, 2026<br><br></li>
             </ul>
 
-            <b>Calculation:</b><br><br>
+            <strong>Calculation:</strong><br><br>
             The continuous period from July 5, 2025, to January 15, 2026, must be entirely excluded from Mr. Ravi's stay in India. <br><br>
 
             <ul>
-                <li><b>Days to exclude:</b><br><br> 27 (July) + 31 (Aug) + 30 (Sep) + 31 (Oct) + 30 (Nov) + 31 (Dec) + 15 (Jan) = 195 days.<br><br></li>
-                <li><b>Effective stay in India:</b><br><br> 365 total days in the year - 195 excluded days = 170 days. <br><br></li>
+                <li><strong>Days to exclude:</strong><br><br> 27 (July) + 31 (Aug) + 30 (Sep) + 31 (Oct) + 30 (Nov) + 31 (Dec) + 15 (Jan) = 195 days.<br><br></li>
+                <li><strong>Effective stay in India:</strong><br><br> 365 total days in the year - 195 excluded days = 170 days. <br><br></li>
             </ul>
 
-            Because Mr. Ravi is an Indian citizen serving as a crew member of an Indian ship, the basic 60-day condition is substituted, and he must stay in India for 182 days or more to be considered a resident. Since his effective calculated stay is only 170 days, he will be classified as a <b>non-resident</b> for the Assessment Year 2026-27.<br><br>
+            Because Mr. Ravi is an Indian citizen serving as a crew member of an Indian ship, the basic 60-day condition is substituted, and he must stay in India for 182 days or more to be considered a resident. Since his effective calculated stay is only 170 days, he will be classified as a <strong>non-resident</strong> for the Assessment Year 2026-27.<br><br>
         `
     },
     {
         question: "8. What are the conditions under section 6(1A) that make an Indian citizen a 'deemed resident' of India, even if they do not meet the physical stay requirements?",
         answer: `
-            Under Section 6(1A) of the Income-tax Act, an individual can be classified as a <b>"deemed resident"</b> of India without any requirement for physical stay in the country. To trigger this provision, the individual must satisfy all of the following conditions:<br><br>
-            1. <b>Indian Citizenship:</b> The person <b>must be an Indian citizen</b>. An individual who is merely a Person of Indian Origin (PIO) but not a citizen cannot be considered a deemed resident under this specific section.<br><br>
-            2. <b>Income Threshold:</b> The individual's <b>total income, other than income from foreign sources, must exceed ₹15 lakhs</b> during the relevant previous year. <br><br>
+            Under Section 6(1A) of the Income-tax Act, an individual can be classified as a <strong>"deemed resident"</strong> of India without any requirement for physical stay in the country. To trigger this provision, the individual must satisfy all of the following conditions:<br><br>
+            1. <strong>Indian Citizenship:</strong> The person <strong>must be an Indian citizen</strong>. An individual who is merely a Person of Indian Origin (PIO) but not a citizen cannot be considered a deemed resident under this specific section.<br><br>
+            2. <strong>Income Threshold:</strong> The individual's <strong>total income, other than income from foreign sources, must exceed ₹15 lakhs</strong> during the relevant previous year. <br><br>
             (Note: "Income from foreign sources" refers to income that accrues or arises outside India and is not deemed to accrue or arise in India. However, if the foreign income is derived from a business controlled in or a profession set up in India, it is not considered a foreign source for this threshold).<br><br>
-            3. <b>Not Liable to Tax Elsewhere:</b> The individual <b>must not be liable to tax in any other country or territory</b> by reason of their domicile, residence, or any other similar criteria. The phrase "liable to tax" means that an income-tax liability exists on such a person under the tax laws of that foreign country for the time being in force, even if they have subsequently been exempted from that liability under those laws.<br><br>
-            <b>Important Rules Regarding Deemed Residents:</b><br><br>
+            3. <strong>Not Liable to Tax Elsewhere:</strong> The individual <strong>must not be liable to tax in any other country or territory</strong> by reason of their domicile, residence, or any other similar criteria. The phrase "liable to tax" means that an income-tax liability exists on such a person under the tax laws of that foreign country for the time being in force, even if they have subsequently been exempted from that liability under those laws.<br><br>
+            <strong>Important Rules Regarding Deemed Residents:</strong><br><br>
             <ul>
-                <li><b>Overrides Physical Stay:</b> The number of days stayed in India is completely irrelevant for being a deemed resident under Section 6(1A).<br><br></li>
-                <li><b>Applicability:</b> This deeming provision acts as a fallback and <b>will not apply if the individual is already classified as a resident under the standard physical stay rules</b> of Section 6(1). <br><br></li>
-                <li><b>Residential Status:</b> An individual who becomes a deemed resident under Section 6(1A) is <b>always assigned the default status of a "Resident but not ordinarily resident" (RNOR)</b>.<br><br></li>
+                <li><strong>Overrides Physical Stay:</strong> The number of days stayed in India is completely irrelevant for being a deemed resident under Section 6(1A).<br><br></li>
+                <li><strong>Applicability:</strong> This deeming provision acts as a fallback and <strong>will not apply if the individual is already classified as a resident under the standard physical stay rules</strong> of Section 6(1). <br><br></li>
+                <li><strong>Residential Status:</strong> An individual who becomes a deemed resident under Section 6(1A) is <strong>always assigned the default status of a "Resident but not ordinarily resident" (RNOR)</strong>.<br><br></li>
             </ul>
-            <b>Illustrative Example:</b><br><br>
+            <strong>Illustrative Example:</strong><br><br>
             Suppose Mr. Verma is an Indian citizen who currently resides in a tax-free country (like the Bahamas) where he is not liable to pay any personal income tax. During the previous year 2025-26, he does not visit India at all (0 days of stay). However, he earns ₹22 lakhs as rent from commercial properties he owns in Mumbai. <br><br>
-            <b>Application:</b> Even though Mr. Verma's physical stay in India is zero, he satisfies all three conditions: he is an Indian citizen, his Indian income (₹22 lakhs) comfortably exceeds the ₹15 lakhs threshold, and he is not liable to tax in his country of residence. Therefore, he will be classified as a <b>deemed resident</b> under Section 6(1A) and will be treated as a <b>Resident but not ordinarily resident (RNOR)</b> for tax purposes in India.<br><br>
+            <strong>Application:</strong> Even though Mr. Verma's physical stay in India is zero, he satisfies all three conditions: he is an Indian citizen, his Indian income (₹22 lakhs) comfortably exceeds the ₹15 lakhs threshold, and he is not liable to tax in his country of residence. Therefore, he will be classified as a <strong>deemed resident</strong> under Section 6(1A) and will be treated as a <strong>Resident but not ordinarily resident (RNOR)</strong> for tax purposes in India.<br><br>
         `
     },
     {
         question: "9. How does the law define the phrase 'liable to tax' in the context of deemed residency for an Indian citizen?",
         answer: `
-            In the context of deemed residency for an Indian citizen, the phrase <b>"liable to tax"</b> in relation to a person and a specific country means that <b>there is an income-tax liability on such person under the tax laws of that country</b> for the time being in force. <br><br>
-            Crucially, the law specifies that this definition <b>also includes a person who has subsequently been exempted from such tax liability</b> under the law of that foreign country. <br><br>
-            Therefore, for an Indian citizen to be classified as a "deemed resident" under Section 6(1A), they must reside in a country or territory where they are <i>not liable to tax at all</i> (such as a jurisdiction with no personal income tax system) based on their domicile, residence, or similar criteria. If the foreign country's laws generally impose a tax liability on them, but they <b>do not pay tax because they qualify for a specific exemption</b> under those laws, they are still legally considered "liable to tax" in that country. Consequently, the deeming provision of Indian residency would not apply to them.<br><br>
+            In the context of deemed residency for an Indian citizen, the phrase <strong>"liable to tax"</strong> in relation to a person and a specific country means that <strong>there is an income-tax liability on such person under the tax laws of that country</strong> for the time being in force. <br><br>
+            Crucially, the law specifies that this definition <strong>also includes a person who has subsequently been exempted from such tax liability</strong> under the law of that foreign country. <br><br>
+            Therefore, for an Indian citizen to be classified as a "deemed resident" under Section 6(1A), they must reside in a country or territory where they are <i>not liable to tax at all</i> (such as a jurisdiction with no personal income tax system) based on their domicile, residence, or similar criteria. If the foreign country's laws generally impose a tax liability on them, but they <strong>do not pay tax because they qualify for a specific exemption</strong> under those laws, they are still legally considered "liable to tax" in that country. Consequently, the deeming provision of Indian residency would not apply to them.<br><br>
             To illustrate how the definition of "liable to tax" affects the deemed residency of an Indian citizen, here are two contrasting examples :- <br><br>
             
-            <b>Example 1: Residing in a completely tax-free jurisdiction (Not Liable to Tax)</b><br><br>
+            <strong>Example 1: Residing in a completely tax-free jurisdiction (Not Liable to Tax)</strong><br><br>
             Mr. Arjun is an Indian citizen who lives and works in Country X, a nation that does not levy any personal income tax on its residents. Therefore, there is no income-tax liability on him under the laws of Country X. During the previous year, he does not visit India at all, but he earns ₹18 lakhs from commercial properties he rented out in Delhi. 
-            <b>Result:</b> Because he is completely <i>not liable to tax</i> in his country of residence by reason of his domicile, the deeming provision gets triggered. He satisfies all conditions of Section 6(1A) and will be classified as a <b>deemed resident</b> of India. He will automatically be treated as a "Resident but not ordinarily resident" (RNOR).<br><br>
+            <strong>Result:</strong> Because he is completely <i>not liable to tax</i> in his country of residence by reason of his domicile, the deeming provision gets triggered. He satisfies all conditions of Section 6(1A) and will be classified as a <strong>deemed resident</strong> of India. He will automatically be treated as a "Resident but not ordinarily resident" (RNOR).<br><br>
 
-            <b>Example 2: Enjoying a specific tax exemption (Legally considered "Liable to Tax")</b><br><br>
+            <strong>Example 2: Enjoying a specific tax exemption (Legally considered "Liable to Tax")</strong><br><br>
             Ms. Priya is an Indian citizen who lives in Country Y. Country Y has a standard personal income tax law, but it offers a special 5-year "tax holiday" (a full exemption from income tax) for individuals who set up new agricultural technology businesses. Priya runs such a business and currently pays absolutely zero income tax in Country Y due to this exemption. Her Indian income (from interest and dividends) for the previous year is ₹25 lakhs.<br><br>
-            <b>Result:</b> Even though Priya currently pays zero tax, the Income-tax Act explicitly states that the phrase "liable to tax" includes a person who has subsequently been exempted from such liability under the laws of that foreign country. Therefore, Ms. Priya is legally considered <b>liable to tax</b> in Country Y. Because she does not meet the "not liable to tax" condition, the deemed resident provision under Section 6(1A) will <b>not</b> apply to her. Assuming she has not visited India to trigger the normal physical stay rules, she will remain a <b>Non-Resident</b> in India.
+            <strong>Result:</strong> Even though Priya currently pays zero tax, the Income-tax Act explicitly states that the phrase "liable to tax" includes a person who has subsequently been exempted from such liability under the laws of that foreign country. Therefore, Ms. Priya is legally considered <strong>liable to tax</strong> in Country Y. Because she does not meet the "not liable to tax" condition, the deemed resident provision under Section 6(1A) will <strong>not</strong> apply to her. Assuming she has not visited India to trigger the normal physical stay rules, she will remain a <strong>Non-Resident</strong> in India.
         `
     },
     {
         question: "10. Can a person of Indian origin (who is not an Indian citizen) be considered a 'deemed resident' under section 6(1A)?",
         answer: `
-            <b>No, a person of Indian origin who is not an Indian citizen cannot be considered a "deemed resident" under Section 6(1A) of the Income-tax Act</b>. <br><br>
+            <strong>No, a person of Indian origin who is not an Indian citizen cannot be considered a "deemed resident" under Section 6(1A) of the Income-tax Act</strong>. <br><br>
 
-            The statutory provision for deemed residency is strictly restricted to <b>Indian citizens</b>. For this provision to apply, the individual must be an Indian citizen, have a total Indian income (excluding foreign sources) exceeding ₹15 lakhs during the previous year, and not be liable to tax in any other country by reason of their domicile or residence. <br><br>
+            The statutory provision for deemed residency is strictly restricted to <strong>Indian citizens</strong>. For this provision to apply, the individual must be an Indian citizen, have a total Indian income (excluding foreign sources) exceeding ₹15 lakhs during the previous year, and not be liable to tax in any other country by reason of their domicile or residence. <br><br>
 
             Because the law explicitly singles out Indian citizens, the deemed resident rule does not apply to a Person of Indian Origin (PIO) holding foreign citizenship. <br><br>
 
-            <b>Illustrative Example:</b><br><br>
+            <strong>Illustrative Example:</strong><br><br>
             Suppose Mr. Sharma is a Person of Indian Origin (PIO) because his parents were born in undivided India, but he himself was born in and is a citizen of the United Kingdom. He currently lives and works in a Middle Eastern country that levies absolutely no personal income tax. During the previous year, he does not visit India at all, but he earns a massive ₹40 lakhs from a property he rented out in Bengaluru. <br><br>
 
-            <b>Illustration:</b> Even though Mr. Sharma is completely not liable to tax in his country of residence and his Indian income far exceeds the ₹15 lakhs threshold, he <b>will not be classified as a deemed resident</b> under Section 6(1A) because he is a UK citizen, not an Indian citizen. Since he also fails the physical stay requirements (zero days in India), he will remain a <b>Non-Resident</b> for tax purposes in India.
+            <strong>Illustration:</strong> Even though Mr. Sharma is completely not liable to tax in his country of residence and his Indian income far exceeds the ₹15 lakhs threshold, he <strong>will not be classified as a deemed resident</strong> under Section 6(1A) because he is a UK citizen, not an Indian citizen. Since he also fails the physical stay requirements (zero days in India), he will remain a <strong>Non-Resident</strong> for tax purposes in India.
         `
     },
     {
         question: "11. What are the two specific conditions laid down in section 6(6) that make a resident individual a 'Resident but not ordinarily resident' (RNOR)?",
         answer: `
-            Under Section 6(6) of the Income-tax Act, a resident individual is classified as a "Resident but not ordinarily resident" (RNOR) if they satisfy <b>any one</b> of the following two specific conditions:<br><br>
+            Under Section 6(6) of the Income-tax Act, a resident individual is classified as a "Resident but not ordinarily resident" (RNOR) if they satisfy <strong>any one</strong> of the following two specific conditions:<br><br>
 
-            <b>1. The 9 out of 10 years rule:</b> The individual has been a non-resident in India in any 9 out of the 10 previous years immediately preceding the relevant previous year.<br><br>
+            <strong>1. The 9 out of 10 years rule:</strong> The individual has been a non-resident in India in any 9 out of the 10 previous years immediately preceding the relevant previous year.<br><br>
 
-            <b>2. The 729 days rule:</b> The individual has been in India for a total period of 729 days or less during the 7 previous years immediately preceding the relevant previous year.<br><br>
+            <strong>2. The 729 days rule:</strong> The individual has been in India for a total period of 729 days or less during the 7 previous years immediately preceding the relevant previous year.<br><br>
 
             If a resident individual meets either of these criteria, they are treated as an RNOR. If they fail to meet both conditions, they are classified as a "Resident and ordinarily resident" (ROR).<br><br>
 
             (Note: The Act also automatically assigns RNOR status to two other specific categories: Indian citizens or persons of Indian origin visiting India whose Indian income exceeds ₹15 lakhs and who stay between 120 and 181 days, as well as to Indian citizens who qualify as "deemed residents" under section 6(1A)).<br><br>
 
-            <b>Illustrative Example :</b><br><br>
+            <strong>Illustrative Example :</strong><br><br>
             Suppose Mr. Carlos, a foreign national, has been living and working in Spain for the last 15 years. He is transferred to India and arrives on May 1, 2025, staying for the remainder of the previous year (P.Y.) 2025-26.<br><br>
 
-            <b>Basic Status:</b> Because his stay during P.Y. 2025-26 exceeds 182 days, he clears the basic test and is classified as a <b>Resident</b> in India.<br><br>
+            <strong>Basic Status:</strong> Because his stay during P.Y. 2025-26 exceeds 182 days, he clears the basic test and is classified as a <strong>Resident</strong> in India.<br><br>
 
-            <b>Applying Section 6(6):</b> To determine if he is ordinarily resident, we look at his past stay. Since he lived in Spain for the past 15 years, his physical stay in India during the preceding 7 years is 0 days (which is strictly less than the 729-day limit). Furthermore, he was a non-resident for all 10 preceding years. He comfortably satisfies both conditions of Section 6(6), even though fulfilling just one is enough. Therefore, his final residential status for the year will be <b>Resident but not ordinarily resident (RNOR)</b>.
+            <strong>Applying Section 6(6):</strong> To determine if he is ordinarily resident, we look at his past stay. Since he lived in Spain for the past 15 years, his physical stay in India during the preceding 7 years is 0 days (which is strictly less than the 729-day limit). Furthermore, he was a non-resident for all 10 preceding years. He comfortably satisfies both conditions of Section 6(6), even though fulfilling just one is enough. Therefore, his final residential status for the year will be <strong>Resident but not ordinarily resident (RNOR)</strong>.
         `
     },
     {
         question: "12. What is the default residential status (ROR or RNOR) assigned to an individual who qualifies as a deemed resident under section 6(1A)?",
         answer: `
-            An individual who qualifies as a deemed resident under Section 6(1A) of the Income-tax Act is always assigned the default residential status of <b>Resident but not ordinarily resident (RNOR)</b>.
+            An individual who qualifies as a deemed resident under Section 6(1A) of the Income-tax Act is always assigned the default residential status of <strong>Resident but not ordinarily resident (RNOR)</strong>.
         `
     },
     {
@@ -236,89 +236,89 @@ const qaList = [
         answer: `
             Under the Income-tax Act, the residential status of a Hindu Undivided Family (HUF) depends fundamentally on the geographical location of the "control and management" of its affairs. <br><br>
 
-            <b>Determining Basic Residential Status (Resident vs. Non-Resident)</b><br><br>
-            <b>Resident:</b> A HUF is considered a resident in India if the control and management of its affairs is situated <b>wholly or partly</b> in India during the relevant previous year.<br><br>
-            <b>Non-Resident:</b> A HUF is classified as a non-resident only if the control and management of its affairs is situated <b>wholly outside India</b>.<br><br>
+            <strong>Determining Basic Residential Status (Resident vs. Non-Resident)</strong><br><br>
+            <strong>Resident:</strong> A HUF is considered a resident in India if the control and management of its affairs is situated <strong>wholly or partly</strong> in India during the relevant previous year.<br><br>
+            <strong>Non-Resident:</strong> A HUF is classified as a non-resident only if the control and management of its affairs is situated <strong>wholly outside India</strong>.<br><br>
 
-            <b>Meaning of "Control and Management"</b><br><br>
+            <strong>Meaning of "Control and Management"</strong><br><br>
             The law provides specific guidance on what constitutes "control and management" for a HUF:<br><br>
-            <b>Centralized Decision-Making:</b> It refers to the central control and management of the HUF's affairs, not the routine carrying on of day-to-day business by agents, servants, or employees.<br><br>
-            <b>Actual Control:</b> It means having <i>de facto</i> (actual) control and management, rather than merely possessing a theoretical right to control or manage.<br><br>
-            <b>The "Head and Brain":</b> The control and management is considered to be situated at the place where the "head and brain of the adventure" is located, which is where <b>important policy decisions</b> concerning the HUF's affairs are taken. <br><br>
-            <b>Physical Presence of Family is Insufficient:</b> Just because the family owns a house in India where some members reside does not automatically mean the control and management is in India, unless the crucial decisions are actually being made at that place. <br><br>
-            <b>Degree of Permanence:</b> The place of control may be completely different from the usual place where the business is run, but it must involve the directing power functioning at a particular place with some degree of permanence.<br><br>
+            <strong>Centralized Decision-Making:</strong> It refers to the central control and management of the HUF's affairs, not the routine carrying on of day-to-day business by agents, servants, or employees.<br><br>
+            <strong>Actual Control:</strong> It means having <i>de facto</i> (actual) control and management, rather than merely possessing a theoretical right to control or manage.<br><br>
+            <strong>The "Head and Brain":</strong> The control and management is considered to be situated at the place where the "head and brain of the adventure" is located, which is where <strong>important policy decisions</strong> concerning the HUF's affairs are taken. <br><br>
+            <strong>Physical Presence of Family is Insufficient:</strong> Just because the family owns a house in India where some members reside does not automatically mean the control and management is in India, unless the crucial decisions are actually being made at that place. <br><br>
+            <strong>Degree of Permanence:</strong> The place of control may be completely different from the usual place where the business is run, but it must involve the directing power functioning at a particular place with some degree of permanence.<br><br>
 
-            <b>Determining Ordinary Residency (ROR vs. RNOR)</b><br><br>
-            Once a HUF is established as a <b>Resident</b> (because its control and management is wholly or partly in India), its final status as "Resident and Ordinarily Resident" (ROR) or "Resident but Not Ordinarily Resident" (RNOR) depends entirely on the past physical stay of its <b>Karta</b>. <br><br>
+            <strong>Determining Ordinary Residency (ROR vs. RNOR)</strong><br><br>
+            Once a HUF is established as a <strong>Resident</strong> (because its control and management is wholly or partly in India), its final status as "Resident and Ordinarily Resident" (ROR) or "Resident but Not Ordinarily Resident" (RNOR) depends entirely on the past physical stay of its <strong>Karta</strong>. <br><br>
 
-            A resident HUF will be treated as <b>ROR</b> only if the Karta satisfies <b>both</b> of the following additional conditions:<br><br>
-            1.  The Karta has been a resident in India in at least <b>2 out of the 10 previous years</b> immediately preceding the relevant previous year.<br><br>
-            2.  The Karta's physical stay in India during the <b>7 previous years</b> immediately preceding the relevant previous year is <b>730 days or more</b>.<br><br>
+            A resident HUF will be treated as <strong>ROR</strong> only if the Karta satisfies <strong>both</strong> of the following additional conditions:<br><br>
+            1.  The Karta has been a resident in India in at least <strong>2 out of the 10 previous years</strong> immediately preceding the relevant previous year.<br><br>
+            2.  The Karta's physical stay in India during the <strong>7 previous years</strong> immediately preceding the relevant previous year is <strong>730 days or more</strong>.<br><br>
 
-            If the Karta fails to meet even one of these two additional conditions, the resident HUF will be classified as a <b>Resident but not ordinarily resident (RNOR)</b>.
+            If the Karta fails to meet even one of these two additional conditions, the resident HUF will be classified as a <strong>Resident but not ordinarily resident (RNOR)</strong>.
         `
     },
     {
         question: "14.  Under what conditions does a resident HUF become \"Resident and ordinarily resident\" (ROR) as opposed to \"Resident but not ordinarily resident\" (RNOR)?",
         answer: `
-            A resident Hindu Undivided Family (HUF) becomes a <b>"Resident and ordinarily resident" (ROR)</b> if its <b>Karta</b> satisfies <b>both</b> of the following additional conditions regarding their past physical stay in India:<br><br>
+            A resident Hindu Undivided Family (HUF) becomes a <strong>"Resident and ordinarily resident" (ROR)</strong> if its <strong>Karta</strong> satisfies <strong>both</strong> of the following additional conditions regarding their past physical stay in India:<br><br>
 
-            1. The Karta must have been a resident in India in at least <b>2 out of the 10 previous years</b> immediately preceding the relevant previous year.<br><br>
-            2. The Karta's total stay in India during the <b>7 previous years</b> immediately preceding the relevant previous year must be <b>730 days or more</b>.<br><br>
+            1. The Karta must have been a resident in India in at least <strong>2 out of the 10 previous years</strong> immediately preceding the relevant previous year.<br><br>
+            2. The Karta's total stay in India during the <strong>7 previous years</strong> immediately preceding the relevant previous year must be <strong>730 days or more</strong>.<br><br>
 
-            If the Karta fails to satisfy <i>either one or both</i> of these additional conditions, the resident HUF will instead be classified as a <b>"Resident but not ordinarily resident" (RNOR)</b>.<br><br>
+            If the Karta fails to satisfy <i>either one or both</i> of these additional conditions, the resident HUF will instead be classified as a <strong>"Resident but not ordinarily resident" (RNOR)</strong>.<br><br>
 
-            <b>Example:</b><br><br>
-            Suppose the control and management of the affairs of <b>a HUF</b> are situated partly in India, making the HUF a <b>Resident</b> for the previous year 2025-26. <br><br>
+            <strong>Example:</strong><br><br>
+            Suppose the control and management of the affairs of <strong>a HUF</strong> are situated partly in India, making the HUF a <strong>Resident</strong> for the previous year 2025-26. <br><br>
 
             To determine if the HUF is ROR or RNOR, we look at the Karta, Mr. Sharma. Mr. Sharma has primarily managed the business from Dubai over the last decade but makes short business trips to India. <br><br>
-            <b>Analysis:</b> Over the last 10 years, he satisfied the basic physical stay conditions to be a resident in exactly 3 previous years (clearing the first condition of being a resident in at least 2 out of 10 years). However, his aggregate physical stay in India during the 7 years immediately preceding 2025-26 comes out to only 650 days. <br><br>
-            <b>Conclusion:</b> Because Mr. Sharma's stay of 650 days is strictly less than the required <b>730 days</b>, he fails the second additional condition. Consequently, despite being a resident HUF, it will be classified as a <b>Resident but not ordinarily resident (RNOR)</b> for the Assessment Year 2026-27.
+            <strong>Analysis:</strong> Over the last 10 years, he satisfied the basic physical stay conditions to be a resident in exactly 3 previous years (clearing the first condition of being a resident in at least 2 out of 10 years). However, his aggregate physical stay in India during the 7 years immediately preceding 2025-26 comes out to only 650 days. <br><br>
+            <strong>Conclusion:</strong> Because Mr. Sharma's stay of 650 days is strictly less than the required <strong>730 days</strong>, he fails the second additional condition. Consequently, despite being a resident HUF, it will be classified as a <strong>Resident but not ordinarily resident (RNOR)</strong> for the Assessment Year 2026-27.
         `
     },
     {
         question: "15. How is the residential status of a Firm, Association of Persons (AoP), Body of Individuals (BoI), Local Authority, and Artificial Juridical Person determined?",
         answer: `
-        Under the provisions of the Income-tax Act, the residential status of a Firm, Association of Persons (AoP), Body of Individuals (BoI), Local Authority, and Artificial Juridical Person is determined by a single, uniform test based on the geographical location of the <b>"control and management"</b> of its affairs.<br><br>
+        Under the provisions of the Income-tax Act, the residential status of a Firm, Association of Persons (AoP), Body of Individuals (BoI), Local Authority, and Artificial Juridical Person is determined by a single, uniform test based on the geographical location of the <strong>"control and management"</strong> of its affairs.<br><br>
 
-        Unlike individuals and Hindu Undivided Families (HUFs), these entities are classified into only two categories: they are either <b>Resident</b> or <b>Non-Resident</b>. They cannot be "Resident and ordinarily resident" or "Resident but not ordinarily resident".<br><br>
+        Unlike individuals and Hindu Undivided Families (HUFs), these entities are classified into only two categories: they are either <strong>Resident</strong> or <strong>Non-Resident</strong>. They cannot be "Resident and ordinarily resident" or "Resident but not ordinarily resident".<br><br>
 
         The determination is made as follows:<br><br>
-        <b>Resident:</b> The entity is considered a resident in India if the control and management of its affairs is situated <b>wholly or partly in India</b> during the relevant previous year.<br><br>
-        <b>Non-Resident:</b> The entity becomes a non-resident *only* if the control and management of its affairs is situated <b>wholly outside India</b>.<br><br>
+        <strong>Resident:</strong> The entity is considered a resident in India if the control and management of its affairs is situated <strong>wholly or partly in India</strong> during the relevant previous year.<br><br>
+        <strong>Non-Resident:</strong> The entity becomes a non-resident *only* if the control and management of its affairs is situated <strong>wholly outside India</strong>.<br><br>
 
-        <b>Important Rule for Firms, AoPs, and BoIs:</b><br><br>
-        The law specifically clarifies that the residential status of the individual partners (in a firm) or members (in an AoP/BoI) is completely <b>immaterial</b> when determining the residential status of the Firm, AoP, or BoI itself. <br><br>
+        <strong>Important Rule for Firms, AoPs, and BoIs:</strong><br><br>
+        The law specifically clarifies that the residential status of the individual partners (in a firm) or members (in an AoP/BoI) is completely <strong>immaterial</strong> when determining the residential status of the Firm, AoP, or BoI itself. <br><br>
 
-        <b>Illustrative Example:</b><br><br>
+        <strong>Illustrative Example:</strong><br><br>
         Suppose "Global Traders" is a partnership firm with its primary business operations and head office located in Singapore. The firm has three partners: Mr. A and Mr. B (who live in Singapore) and Mr. C (who lives in Delhi). During the previous year 2025-26, the firm holds its strategic policy meetings online, and Mr. C participates in and influences these crucial decisions from his office in Delhi. <br><br>
 
-        <b>Application:</b> Because Mr. C is actively participating in the "control and management" of the firm's affairs from Delhi, the control and management is situated <b>partly in India</b>. Therefore, regardless of the fact that the main business is in Singapore and the other two partners are non-residents, "Global Traders" as a firm will be classified as a <b>Resident</b> in India for tax purposes.<br><br>
+        <strong>Application:</strong> Because Mr. C is actively participating in the "control and management" of the firm's affairs from Delhi, the control and management is situated <strong>partly in India</strong>. Therefore, regardless of the fact that the main business is in Singapore and the other two partners are non-residents, "Global Traders" as a firm will be classified as a <strong>Resident</strong> in India for tax purposes.<br><br>
 
         `
     },
     {
         question: "16.  Is the residential status of the individual partners or members relevant when determining the residential status of a Firm, AoP, or BoI?",
         answer: `
-        <b>No</b>, the residential status of the individual partners or members is strictly <b>immaterial</b> when determining the residential status of a Firm, Association of Persons (AoP), or Body of Individuals (BoI). <br><br>
-        The residential status of these entities is determined exclusively by the geographical location of where the <b>"control and management"</b> of their affairs takes place. The rules are straightforward:<br><br>
-        <b>Resident:</b> The Firm, AoP, or BoI is considered a resident in India if the control and management of its affairs is situated <b>wholly or partly in India</b> during the relevant previous year.<br><br>
-        <b>Non-Resident:</b> The entity is considered a non-resident only if the control and management of its affairs is situated <b>wholly outside India</b>.<br><br>
+        <strong>No</strong>, the residential status of the individual partners or members is strictly <strong>immaterial</strong> when determining the residential status of a Firm, Association of Persons (AoP), or Body of Individuals (BoI). <br><br>
+        The residential status of these entities is determined exclusively by the geographical location of where the <strong>"control and management"</strong> of their affairs takes place. The rules are straightforward:<br><br>
+        <strong>Resident:</strong> The Firm, AoP, or BoI is considered a resident in India if the control and management of its affairs is situated <strong>wholly or partly in India</strong> during the relevant previous year.<br><br>
+        <strong>Non-Resident:</strong> The entity is considered a non-resident only if the control and management of its affairs is situated <strong>wholly outside India</strong>.<br><br>
         Therefore, even if all the individual partners of a firm are non-residents, the firm itself will still be classified as a resident of India for tax purposes if even a small part of its strategic decision-making (control and management) occurs within India.<br><br>
         `
     },
     {
         question: "17.  What are the criteria for a company to be classified as a resident in India, and how is the \"Place of Effective Management\" (POEM) defined?",
         answer: `
-        A company is classified as a resident in India in any previous year if it satisfies <b>either</b> of the following two criteria:<br><br>
+        A company is classified as a resident in India in any previous year if it satisfies <strong>either</strong> of the following two criteria:<br><br>
         
-        1. It is an <b>Indian company</b>; or<br><br>
-        2. Its <b>Place of Effective Management (POEM)</b>, in that year, is situated in India.<br><br>
+        1. It is an <strong>Indian company</strong>; or<br><br>
+        2. Its <strong>Place of Effective Management (POEM)</strong>, in that year, is situated in India.<br><br>
 
         If a company is neither an Indian company nor has its POEM in India during the relevant year, it is classified as a non-resident.<br><br>
 
-        <b>Definition of Place of Effective Management (POEM)</b><br>
-        Under the Explanation to section 6(3) of the Income-tax Act, "Place of Effective Management" is defined as the place where <b>key management and commercial decisions</b> that are necessary for the conduct of the business of an entity as a whole are, in substance, made.<br><br>
+        <strong>Definition of Place of Effective Management (POEM)</strong><br>
+        Under the Explanation to section 6(3) of the Income-tax Act, "Place of Effective Management" is defined as the place where <strong>key management and commercial decisions</strong> that are necessary for the conduct of the business of an entity as a whole are, in substance, made.<br><br>
         `
     },
     {
@@ -357,7 +357,7 @@ const qaList = [
         <p>Mr. Gupta runs a software consulting firm in Dubai. The profits for the year are ₹5,000,000, which are received in a Dubai bank account. However, all the key strategic and management decisions for this Dubai firm are made from his head office in Bengaluru, India.</p><br>
         <ul>
         <li><strong>If Mr. Gupta is ROR:</strong> The ₹5,000,000 is <strong>taxable</strong> in India as part of his global income.</li>
-        <li><strong>If Mr. Gupta is RNOR:</strong> The ₹5,000,000 is <strong>taxable</strong> in India. Even though the income accrues and is received outside India, it is derived from a business that is <b>controlled in India</b>, which falls under the specific scope of taxable income for an RNOR.</li>
+        <li><strong>If Mr. Gupta is RNOR:</strong> The ₹5,000,000 is <strong>taxable</strong> in India. Even though the income accrues and is received outside India, it is derived from a business that is <strong>controlled in India</strong>, which falls under the specific scope of taxable income for an RNOR.</li>
         </ul>
         <br>
         <p><strong>Example 3: Indian Income Received Abroad</strong><br></p>

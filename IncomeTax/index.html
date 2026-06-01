@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Subject Explorer - Detailed Study</title>
+    <title>Income Tax Law - Chapter Explorer</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         /* Modern, clean theme matching the accordion UI */
         :root {
             --primary: #2563eb;
             --primary-hover: #1d4ed8;
+            --primary-light: #60a5fa;
             --bg-color: #f8fafc;
             --text-dark: #0f172a;
             --text-light: #475569;
@@ -27,18 +28,19 @@
         }
 
         body {
-            background-color: var(--bg-color);
+            background: linear-gradient(135deg, var(--bg-color) 0%, #f1f5f9 100%);
             color: var(--text-dark);
             line-height: 1.5;
+            min-height: 100vh;
         }
 
         .app-container {
-            max-width: 900px;
+            max-width: 1000px;
             margin: 0 auto;
             padding: 20px;
         }
 
-        /* --- NEW STYLES FOR MASTER HOME BUTTON --- */
+        /* Master Home Button */
         .master-home-btn {
             display: inline-flex;
             align-items: center;
@@ -48,41 +50,55 @@
             font-weight: 600;
             font-size: 0.95rem;
             margin-bottom: 20px;
-            padding: 10px 16px;
-            border-radius: 8px;
+            padding: 10px 18px;
+            border-radius: 10px;
             background-color: var(--card-bg);
             border: 1px solid var(--border);
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
-            transition: all 0.2s ease;
+            transition: all 0.25s ease;
         }
 
         .master-home-btn:hover {
             color: var(--primary);
             border-color: var(--primary);
             transform: translateY(-2px);
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 6px 12px rgba(37, 99, 235, 0.1);
         }
 
         /* Header Section */
         .app-header {
             text-align: center;
-            padding: 40px 20px;
+            padding: 50px 30px;
             background: var(--card-bg);
-            border-radius: 12px;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
-            margin-bottom: 30px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+            margin-bottom: 35px;
             border: 1px solid var(--border);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .app-header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary), #4f46e5, var(--primary-light));
         }
 
         .app-header h1 {
-            font-size: 2rem;
-            color: var(--primary);
-            margin-bottom: 10px;
+            font-size: 2.2rem;
+            background: linear-gradient(135deg, var(--primary), #4f46e5);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 12px;
         }
 
         .app-header p {
             color: var(--text-light);
-            font-size: 1.1rem;
+            font-size: 1.05rem;
             max-width: 600px;
             margin: 0 auto;
         }
@@ -90,59 +106,85 @@
         /* Grid Layout for Chapters */
         .chapter-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 20px;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 24px;
         }
 
         /* Chapter Cards */
         .chapter-card {
             background: var(--card-bg);
             border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 25px 20px;
+            border-radius: 16px;
+            padding: 28px 22px;
             cursor: pointer;
-            transition: all 0.2s ease;
+            transition: all 0.3s ease;
             display: flex;
             flex-direction: column;
             align-items: flex-start;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
             text-decoration: none;
-            /* Reset anchor styling */
             color: inherit;
-            /* Reset anchor styling */
+            position: relative;
+            overflow: hidden;
+        }
+
+        .chapter-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--primary), var(--primary-light));
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .chapter-card:hover::before {
+            opacity: 1;
         }
 
         .chapter-card:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-            border-color: var(--primary);
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            border-color: var(--primary-light);
         }
 
+        /* Unique icon colors for each chapter */
+        .chapter-card:nth-child(1) .icon-wrapper { background: linear-gradient(135deg, #dbeafe, #eff6ff); color: #2563eb; }
+        .chapter-card:nth-child(2) .icon-wrapper { background: linear-gradient(135deg, #dcfce7, #f0fdf4); color: #10b981; }
+        .chapter-card:nth-child(3) .icon-wrapper { background: linear-gradient(135deg, #fef3c7, #fffbeb); color: #f59e0b; }
+        .chapter-card:nth-child(4) .icon-wrapper { background: linear-gradient(135deg, #fce7f3, #fdf2f8); color: #ec4899; }
+        .chapter-card:nth-child(5) .icon-wrapper { background: linear-gradient(135deg, #e0e7ff, #eef2ff); color: #4f46e5; }
+
         .icon-wrapper {
-            background: #eff6ff;
-            color: var(--primary);
-            width: 50px;
-            height: 50px;
-            border-radius: 10px;
+            width: 55px;
+            height: 55px;
+            border-radius: 14px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 1.5rem;
-            margin-bottom: 15px;
+            font-size: 1.6rem;
+            margin-bottom: 18px;
+            transition: transform 0.2s ease;
+        }
+
+        .chapter-card:hover .icon-wrapper {
+            transform: scale(1.05);
         }
 
         .chapter-title {
-            font-size: 1.2rem;
-            font-weight: 600;
-            margin-bottom: 8px;
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 10px;
             color: var(--text-dark);
         }
 
         .chapter-desc {
             font-size: 0.9rem;
             color: var(--text-light);
-            margin-bottom: 15px;
+            margin-bottom: 20px;
             flex-grow: 1;
+            line-height: 1.5;
         }
 
         .read-btn {
@@ -151,18 +193,40 @@
             font-size: 0.9rem;
             display: flex;
             align-items: center;
-            gap: 5px;
+            gap: 6px;
+            transition: gap 0.2s ease;
+        }
+
+        .chapter-card:hover .read-btn {
+            gap: 10px;
+        }
+
+        .read-btn i {
+            transition: transform 0.2s ease;
         }
 
         .chapter-card:hover .read-btn i {
             transform: translateX(4px);
-            transition: transform 0.2s;
+        }
+
+        /* Footer */
+        .footer-note {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: var(--text-light);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border);
         }
 
         /* Mobile adjustments */
-        @media (max-width: 600px) {
+        @media (max-width: 640px) {
+            .app-container {
+                padding: 15px;
+            }
+
             .app-header {
-                padding: 30px 15px;
+                padding: 35px 20px;
             }
 
             .app-header h1 {
@@ -171,6 +235,11 @@
 
             .chapter-grid {
                 grid-template-columns: 1fr;
+                gap: 16px;
+            }
+
+            .chapter-card {
+                padding: 22px 18px;
             }
         }
     </style>
@@ -185,38 +254,54 @@
         </a>
 
         <header class="app-header">
-            <h1>Income Tax Law</h1>
-            <p>Income Tax Act 1961, Rules, Circulars and Case Laws</p>
+            <h1>📚 Income Tax Law</h1>
+            <p>Income Tax Act 1961, Rules, Circulars and Case Laws — Complete Study Guide</p>
         </header>
 
         <main class="chapter-grid" id="chapter-grid">
         </main>
+
+        <div class="footer-note">
+            <i class="fas fa-graduation-cap"></i> Select a chapter to begin your study
+        </div>
     </div>
 
     <script>
-        // 1. Define your chapters here
+        // Define chapters with enhanced descriptions
         const chaptersData = [
             {
                 id: '01',
-                name: 'Basic Concepts of Income Tax in India',
-                description: 'Components of Income Tax Law, Definitions, Computation of Total Income, Basis of Charge and Rates of Tax.',
-                icon: 'fas fa-landmark'
+                name: 'Basic Concepts of Income Tax',
+                description: 'Components of Income Tax Law, Definitions, Computation of Total Income, Basis of Charge and Rates of Tax',
+                icon: 'fas fa-file-invoice-dollar'
             },
             {
                 id: '02',
-                name: 'Residential Status and Scope of Total Income',
-                description: 'Determination of Residential Status and scope of income based on residential status',
-                icon: 'fas fa-home'
+                name: 'Residential Status & Scope of Total Income',
+                description: 'Resident, non-resident, or not ordinarily resident — determine your status, determine your tax scope',
+                icon: 'fas fa-passport'
             },
             {
                 id: '03',
                 name: 'Income from Salaries',
-                description: 'Defining, evaluating, and computing taxable income under both the default (Section 115BAC) and optional tax regimes.',
-                icon: 'fas fa-globe'
+                description: 'Salary simplified: exemptions, deductions, allowances, perquisites, and computations',
+                icon: 'fas fa-user-tie'
+            },
+            {
+                id: '04',
+                name: 'Income from House Property',
+                description: 'Whether self-occupied or let out — every house has a unique tax story',
+                icon: 'fas fa-building'
+            },
+            {
+                id: '05',
+                name: 'Profits and Gains of Business',
+                description: 'Every business earns. Know what\'s taxable, what\'s deductible, and how to compute profits',
+                icon: 'fas fa-chart-line'
             }
         ];
 
-        // 2. Function to render the cards
+        // Function to render the cards
         function renderChapters() {
             const grid = document.getElementById('chapter-grid');
             let html = '';
@@ -230,7 +315,7 @@
                         <h2 class="chapter-title">${chapter.name}</h2>
                         <p class="chapter-desc">${chapter.description}</p>
                         <div class="read-btn">
-                            Read Notes <i class="fas fa-arrow-right"></i>
+                            Read Chapter <i class="fas fa-arrow-right"></i>
                         </div>
                     </a>
                 `;
@@ -239,7 +324,7 @@
             grid.innerHTML = html;
         }
 
-        // 3. Run on load
+        // Run on load
         document.addEventListener('DOMContentLoaded', renderChapters);
     </script>
 </body>
